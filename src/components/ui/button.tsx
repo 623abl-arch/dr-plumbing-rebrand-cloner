@@ -13,7 +13,7 @@ const buttonVariants = cva(
         destructive: "bg-destructive text-destructive-foreground hover:bg-destructive/90",
         outline: "border-2 border-primary bg-background text-primary hover:bg-primary hover:text-primary-foreground",
         secondary: "bg-secondary text-secondary-foreground hover:bg-secondary-hover shadow-md hover:shadow-lg",
-        emergency: "bg-emergency text-emergency-foreground hover:bg-emergency-hover shadow-md hover:shadow-lg animate-pulse hover:animate-none",
+        emergency: "bg-emergency text-emergency-foreground hover:bg-emergency-hover shadow-md hover:shadow-lg",
         hero: "bg-gradient-primary text-primary-foreground hover:opacity-90 shadow-lg hover:shadow-xl text-base font-semibold",
         ghost: "hover:bg-accent hover:text-accent-foreground",
         link: "text-primary underline-offset-4 hover:underline",
