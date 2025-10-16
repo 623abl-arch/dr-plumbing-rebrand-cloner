@@ -22,10 +22,17 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          hover: "hsl(var(--primary-hover))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          hover: "hsl(var(--secondary-hover))",
+        },
+        emergency: {
+          DEFAULT: "hsl(var(--emergency))",
+          foreground: "hsl(var(--emergency-foreground))",
+          hover: "hsl(var(--emergency-hover))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -62,6 +69,19 @@ export default {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
+      },
+      backgroundImage: {
+        'gradient-primary': 'var(--gradient-primary)',
+        'gradient-hero': 'var(--gradient-hero)',
+        'gradient-accent': 'var(--gradient-accent)',
+      },
+      boxShadow: {
+        'sm': 'var(--shadow-sm)',
+        'md': 'var(--shadow-md)',
+        'lg': 'var(--shadow-lg)',
+      },
+      transitionTimingFunction: {
+        'smooth': 'var(--transition-smooth)',
       },
       keyframes: {
         "accordion-down": {
