@@ -41,7 +41,7 @@ const Navbar = () => {
               (555) 123-4567
             </a>
             <Button variant="emergency" size="lg" asChild>
-              <Link to="/contact">Emergency Service</Link>
+              <a href="tel:555-123-4567">Emergency Service</a>
             </Button>
           </div>
 
@@ -89,7 +89,7 @@ const Navbar = () => {
               (555) 123-4567
             </a>
             <Button variant="emergency" className="w-full" asChild>
-              <Link to="/contact">Emergency Service</Link>
+              <a href="tel:555-123-4567">Emergency Service</a>
             </Button>
           </div>
         )}

@@ -31,10 +31,10 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="emergency" size="lg" asChild>
-                <Link to="/contact">
+                <a href="tel:555-123-4567">
                   <Phone className="mr-2" />
                   Call (555) 123-4567
-                </Link>
+                </a>
               </Button>
               <Button variant="secondary" size="lg" asChild>
                 <Link to="/services">View Our Services</Link>
