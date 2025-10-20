@@ -6,6 +6,7 @@ import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
 import { useState } from "react";
 import { useToast } from "@/hooks/use-toast";
 
@@ -30,6 +31,12 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Contact Dr. Plumbing | Get a Free Estimate | (555) 123-4567"
+        description="Contact Dr. Plumbing for all your plumbing needs. Available 24/7 for emergencies. Get a free estimate today. Call (555) 123-4567 or fill out our contact form."
+        keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact"
+        canonicalUrl="https://drplumbing.com/contact"
+      />
       <Navbar />
       
       {/* Hero Section */}

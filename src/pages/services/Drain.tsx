@@ -4,11 +4,21 @@ import { Link } from "react-router-dom";
 import { Phone, CheckCircle, Droplets, Video } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
+import { serviceStructuredData } from "@/data/structuredData";
 import drainImage from "@/assets/drain-service.jpg";
 
 const Drain = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Professional Drain Cleaning & Repair Services | Dr. Plumbing"
+        description="Expert drain cleaning, hydro jetting, camera inspections, and drain repair services. Advanced technology for clogged drains, sewer lines, and plumbing systems. Call (555) 123-4567!"
+        keywords="drain cleaning, hydro jetting, drain repair, clogged drain, sewer line cleaning, camera inspection"
+        canonicalUrl="https://drplumbing.com/services/drain"
+        structuredData={serviceStructuredData("Drain Cleaning & Repair", "Professional drain cleaning and repair services using advanced technology including camera inspections and hydro jetting.")}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -57,9 +67,9 @@ const Drain = () => {
               </div>
             </div>
             <div>
-              <img
+              <OptimizedImage
                 src={drainImage}
-                alt="Professional Drain Services"
+                alt="Professional drain cleaning and repair service with advanced equipment"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>

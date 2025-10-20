@@ -4,11 +4,21 @@ import { Link } from "react-router-dom";
 import { Phone, CheckCircle, AlertTriangle, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
+import { serviceStructuredData } from "@/data/structuredData";
 import waterDamageImage from "@/assets/water-damage.jpg";
 
 const WaterDamage = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Water Damage Restoration Services | Dr. Plumbing"
+        description="Professional water damage restoration services available 24/7. Expert cleanup, drying, and repair for flooding, leaks, and water emergencies. Average cost $2,400-$4,250. Call (555) 123-4567!"
+        keywords="water damage restoration, flood cleanup, water extraction, emergency water removal, leak repair"
+        canonicalUrl="https://drplumbing.com/services/water-damage"
+        structuredData={serviceStructuredData("Water Damage Restoration", "Complete water damage restoration including extraction, drying, cleanup, and repair services available 24/7.")}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -71,9 +81,9 @@ const WaterDamage = () => {
               </div>
             </div>
             <div>
-              <img
+              <OptimizedImage
                 src={waterDamageImage}
-                alt="Water Damage Restoration"
+                alt="Professional water damage restoration and cleanup service"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>

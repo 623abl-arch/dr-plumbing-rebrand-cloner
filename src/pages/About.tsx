@@ -4,11 +4,19 @@ import { Link } from "react-router-dom";
 import { Shield, Award, Users, Clock, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
 import heroImage from "@/assets/hero-plumbing.jpg";
 
 const About = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="About Dr. Plumbing | Licensed & Insured Since 2010"
+        description="Learn about Dr. Plumbing, your trusted plumbing experts since 2010. Licensed, insured, and committed to delivering professional plumbing services with integrity and expertise."
+        keywords="about plumbing company, licensed plumber, insured plumber, professional plumbing team"
+        canonicalUrl="https://drplumbing.com/about"
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -43,9 +51,9 @@ const About = () => {
               </p>
             </div>
             <div>
-              <img
+              <OptimizedImage
                 src={heroImage}
-                alt="Dr. Plumbing Team"
+                alt="Dr. Plumbing professional team of licensed plumbers"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>

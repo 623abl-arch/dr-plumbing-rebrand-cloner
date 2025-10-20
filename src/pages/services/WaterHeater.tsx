@@ -4,11 +4,21 @@ import { Link } from "react-router-dom";
 import { Phone, CheckCircle, Flame, Shield } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
+import { serviceStructuredData } from "@/data/structuredData";
 import waterHeaterImage from "@/assets/water-heater.jpg";
 
 const WaterHeater = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Water Heater Repair, Installation & Service | Dr. Plumbing"
+        description="Expert water heater repair, replacement, and maintenance for all brands and models. Tankless, gas, and electric water heater services. Licensed & certified. Call (555) 123-4567!"
+        keywords="water heater repair, tankless water heater, water heater replacement, water heater installation, gas water heater"
+        canonicalUrl="https://drplumbing.com/services/water-heater"
+        structuredData={serviceStructuredData("Water Heater Services", "Complete water heater repair, installation, and maintenance services for all types including tankless, gas, and electric systems.")}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -31,9 +41,9 @@ const WaterHeater = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div>
-              <img
+              <OptimizedImage
                 src={waterHeaterImage}
-                alt="Water Heater Services"
+                alt="Expert water heater repair and installation services"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>

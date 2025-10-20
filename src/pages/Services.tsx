@@ -4,6 +4,7 @@ import { Wrench, Droplet, Flame, AlertTriangle, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
+import { SEO } from "@/components/SEO";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
@@ -12,6 +13,12 @@ import waterDamageImage from "@/assets/water-damage.jpg";
 const Services = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Professional Plumbing Services | Dr. Plumbing"
+        description="Comprehensive plumbing services including emergency repairs, drain cleaning, water heater service, water damage restoration, and more. Licensed & insured. Call (555) 123-4567!"
+        keywords="plumbing services, emergency plumber, drain cleaning, water heater service, plumbing company"
+        canonicalUrl="https://drplumbing.com/services"
+      />
       <Navbar />
       
       {/* Hero Section */}

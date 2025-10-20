@@ -5,6 +5,9 @@ import { Phone, Wrench, Droplet, Flame, AlertTriangle, CheckCircle, Clock, Shiel
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
+import { localBusinessStructuredData } from "@/data/structuredData";
 import heroImage from "@/assets/hero-plumbing.jpg";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
@@ -14,6 +17,13 @@ import waterDamageImage from "@/assets/water-damage.jpg";
 const Home = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="Dr. Plumbing | Expert Plumbing Services 24/7 | Licensed & Insured"
+        description="Dr. Plumbing provides professional plumbing services including emergency repairs, drain cleaning, water heater service, and water damage restoration. Available 24/7. Call (555) 123-4567."
+        keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing"
+        canonicalUrl="https://drplumbing.com/"
+        structuredData={localBusinessStructuredData}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -142,9 +152,9 @@ const Home = () => {
               </Button>
             </div>
             <div className="relative">
-              <img
+              <OptimizedImage
                 src={heroImage}
-                alt="Professional Plumbing Services"
+                alt="Professional plumbing services by licensed technicians"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>

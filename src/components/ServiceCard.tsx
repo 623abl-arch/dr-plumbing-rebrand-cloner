@@ -2,6 +2,7 @@ import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { LucideIcon } from "lucide-react";
+import { OptimizedImage } from "@/components/OptimizedImage";
 
 interface ServiceCardProps {
   title: string;
@@ -16,9 +17,9 @@ const ServiceCard = ({ title, description, icon: Icon, link, image }: ServiceCar
     <Card className="group overflow-hidden transition-all duration-300 hover:shadow-lg hover:-translate-y-1">
       {image && (
         <div className="relative h-48 overflow-hidden">
-          <img
+          <OptimizedImage
             src={image}
-            alt={title}
+            alt={`${title} - Professional plumbing service`}
             className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background/80 to-transparent" />

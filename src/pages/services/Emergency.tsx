@@ -4,11 +4,21 @@ import { Link } from "react-router-dom";
 import { Phone, CheckCircle, AlertTriangle, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
+import { SEO } from "@/components/SEO";
+import { OptimizedImage } from "@/components/OptimizedImage";
+import { serviceStructuredData } from "@/data/structuredData";
 import emergencyImage from "@/assets/emergency-service.jpg";
 
 const Emergency = () => {
   return (
     <div className="min-h-screen flex flex-col">
+      <SEO 
+        title="24/7 Emergency Plumbing Services | Dr. Plumbing"
+        description="Fast response emergency plumbing services available 24/7. Licensed plumbers ready to handle burst pipes, severe leaks, and urgent plumbing issues. Call (555) 123-4567 now!"
+        keywords="emergency plumber, 24/7 plumbing, urgent plumbing repair, burst pipe repair, emergency drain cleaning"
+        canonicalUrl="https://drplumbing.com/services/emergency"
+        structuredData={serviceStructuredData("24/7 Emergency Plumbing", "Fast response emergency plumbing services available around the clock for urgent repairs and maintenance.")}
+      />
       <Navbar />
       
       {/* Hero Section */}
@@ -34,9 +44,9 @@ const Emergency = () => {
         <div className="container mx-auto px-4">
           <div className="grid md:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
             <div>
-              <img
+              <OptimizedImage
                 src={emergencyImage}
-                alt="Emergency Plumbing Service"
+                alt="24/7 emergency plumbing service technician responding to urgent call"
                 className="rounded-lg shadow-lg w-full"
               />
             </div>
