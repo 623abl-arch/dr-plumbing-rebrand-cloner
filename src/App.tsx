@@ -17,6 +17,12 @@ const WaterHeater = lazy(() => import("./pages/services/WaterHeater"));
 const WaterTreatment = lazy(() => import("./pages/services/WaterTreatment"));
 const Gas = lazy(() => import("./pages/services/Gas"));
 const RePipe = lazy(() => import("./pages/services/RePipe"));
+const FixtureInstallation = lazy(() => import("./pages/services/FixtureInstallation"));
+const PipeRepair = lazy(() => import("./pages/services/PipeRepair"));
+const LeakDetection = lazy(() => import("./pages/services/LeakDetection"));
+const VideoInspection = lazy(() => import("./pages/services/VideoInspection"));
+const SewerServices = lazy(() => import("./pages/services/SewerServices"));
+const MaintenancePlans = lazy(() => import("./pages/services/MaintenancePlans"));
 const Belleair = lazy(() => import("./pages/locations/Belleair"));
 const BeachBluffsShores = lazy(() => import("./pages/locations/BeachBluffsShores"));
 const Clearwater = lazy(() => import("./pages/locations/Clearwater"));
@@ -66,6 +72,12 @@ const App = () => (
               <Route path="/services/water-treatment" element={<WaterTreatment />} />
               <Route path="/services/gas" element={<Gas />} />
               <Route path="/services/re-pipe" element={<RePipe />} />
+              <Route path="/services/fixture-installation" element={<FixtureInstallation />} />
+              <Route path="/services/pipe-repair" element={<PipeRepair />} />
+              <Route path="/services/leak-detection" element={<LeakDetection />} />
+              <Route path="/services/video-inspection" element={<VideoInspection />} />
+              <Route path="/services/sewer" element={<SewerServices />} />
+              <Route path="/services/maintenance-plans" element={<MaintenancePlans />} />
               <Route path="/locations/belleair" element={<Belleair />} />
               <Route path="/locations/beach-bluffs-shores" element={<BeachBluffsShores />} />
               <Route path="/locations/clearwater" element={<Clearwater />} />
