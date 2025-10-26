@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Phone, MapPin } from "lucide-react";
+import { Phone, MapPin, Wrench, Droplet, Flame, Filter, Fuel, Settings } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
@@ -8,6 +8,9 @@ import { SEO } from "@/components/SEO";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
+import waterTreatmentImage from "@/assets/water-treatment.jpg";
+import gasServiceImage from "@/assets/gas-service.jpg";
+import rePipeImage from "@/assets/re-pipe.jpg";
 
 const Westchase = () => {
   return (
@@ -51,23 +54,44 @@ const Westchase = () => {
             <ServiceCard
               title="Emergency Plumbing"
               description="24/7 emergency plumbing services for urgent issues in Westchase."
-              icon={Phone}
+              icon={Wrench}
               link="/services/emergency"
               image={emergencyImage}
             />
             <ServiceCard
               title="Drain Services"
               description="Professional drain cleaning and repair services."
-              icon={Phone}
+              icon={Droplet}
               link="/services/drain"
               image={drainImage}
             />
             <ServiceCard
-              title="Water Heater Service"
+              title="Water Heater Repair"
               description="Water heater repair, maintenance, and replacement."
-              icon={Phone}
+              icon={Flame}
               link="/services/water-heater"
               image={waterHeaterImage}
+            />
+            <ServiceCard
+              title="Water Treatment"
+              description="Improve your water quality with professional water treatment solutions."
+              icon={Filter}
+              link="/services/water-treatment"
+              image={waterTreatmentImage}
+            />
+            <ServiceCard
+              title="Gas Line Services"
+              description="Licensed gas line installation, repair, and leak detection services."
+              icon={Fuel}
+              link="/services/gas"
+              image={gasServiceImage}
+            />
+            <ServiceCard
+              title="Re-Pipe Services"
+              description="Complete re-piping services to replace old, corroded pipes."
+              icon={Settings}
+              link="/services/re-pipe"
+              image={rePipeImage}
             />
           </div>
 
