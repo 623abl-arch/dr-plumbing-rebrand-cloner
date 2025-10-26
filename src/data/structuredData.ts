@@ -6,10 +6,10 @@ export const localBusinessStructuredData = {
   "description": "Professional plumbing services available 24/7. Emergency repairs, drain cleaning, water heater service & water damage restoration.",
   "address": {
     "@type": "PostalAddress",
-    "streetAddress": "123 Main Street",
-    "addressLocality": "Your City",
-    "addressRegion": "ST",
-    "postalCode": "12345",
+    "streetAddress": "140 Island Way 196",
+    "addressLocality": "Clearwater",
+    "addressRegion": "FL",
+    "postalCode": "33767",
     "addressCountry": "US"
   },
   "telephone": "+1-727-755-7000",

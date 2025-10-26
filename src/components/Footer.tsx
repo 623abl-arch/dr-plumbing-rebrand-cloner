@@ -56,7 +56,7 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
-                <span>123 Main Street<br />Your City, ST 12345</span>
+                <span>140 Island Way 196<br />Clearwater, FL 33767</span>
               </li>
             </ul>
           </div>
