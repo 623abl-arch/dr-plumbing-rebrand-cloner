@@ -17,7 +17,7 @@ const Seminole = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Seminole Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Seminole, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Seminole plumbing professionals serving your neighborhood 24/7. Emergency repairs, drains & water heaters. Licensed & insured. Call (727) 755-7000!"
         keywords="Seminole plumber, plumbing services Seminole FL, emergency plumber Seminole, drain cleaning Seminole"
         canonicalUrl="https://drplumbing.com/locations/seminole"
       />

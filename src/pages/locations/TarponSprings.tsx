@@ -17,7 +17,7 @@ const TarponSprings = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Tarpon Springs Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Tarpon Springs, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Tarpon Springs plumber serving your community 24/7. Emergency repairs, drain cleaning & water heaters. Licensed & insured. Call (727) 755-7000 today!"
         keywords="Tarpon Springs plumber, plumbing services Tarpon Springs FL, emergency plumber Tarpon Springs"
         canonicalUrl="https://drplumbing.com/locations/tarpon-springs"
       />

@@ -17,7 +17,7 @@ const KennethCity = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Kenneth City Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Kenneth City, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Kenneth City's reliable plumber serving your neighborhood 24/7. Emergency repairs, drains & water heaters. Licensed & insured. Call (727) 755-7000!"
         keywords="Kenneth City plumber, plumbing services Kenneth City FL, emergency plumber Kenneth City"
         canonicalUrl="https://drplumbing.com/locations/kenneth-city"
       />

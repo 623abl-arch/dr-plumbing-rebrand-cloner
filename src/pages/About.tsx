@@ -13,7 +13,7 @@ const About = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="About Dr. Plumbing | Licensed Since 2010"
-        description="Learn about Dr. Plumbing, your trusted plumbing experts since 2010. Licensed, insured, and committed to delivering professional plumbing services with integrity and expertise."
+        description="Trusted Tampa Bay plumber since 2010. Licensed, insured, and delivering professional plumbing services with integrity. Your local experts you can count on."
         keywords="about plumbing company, licensed plumber, insured plumber, professional plumbing team"
         canonicalUrl="https://drplumbing.com/about"
       />

@@ -12,7 +12,7 @@ const PipeRepair = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Pipe Repair & Replacement Services | Dr. Plumbing"
-        description="Expert pipe repair and replacement for damaged or aging pipes. Copper, PEX, and galvanized pipe services. Call (727) 755-7000!"
+        description="Expert pipe repair & replacement for damaged or aging pipes. Copper, PEX & galvanized services. Fast, reliable repairs. Call (727) 755-7000 today!"
         keywords="pipe repair, pipe replacement, copper pipes, PEX pipes, broken pipe, pipe leak"
         canonicalUrl="https://drplumbing.com/services/pipe-repair"
         structuredData={serviceStructuredData("Pipe Repair & Replacement", "Expert repairs and replacements for damaged or aging pipes.")}

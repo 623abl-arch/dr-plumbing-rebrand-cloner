@@ -17,7 +17,7 @@ const ClearwaterBeach = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Clearwater Beach Plumber | Dr. Plumbing"
-        description="Expert plumbing services in Clearwater Beach, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Clearwater Beach plumbing specialists available 24/7. Fast emergency response, drain cleaning & water heaters. Licensed experts. Call (727) 755-7000!"
         keywords="Clearwater Beach plumber, plumbing services Clearwater Beach FL, emergency plumber Clearwater Beach"
         canonicalUrl="https://drplumbing.com/locations/clearwater-beach"
       />

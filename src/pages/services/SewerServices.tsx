@@ -12,7 +12,7 @@ const SewerServices = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Sewer Line Service | Dr. Plumbing"
-        description="Complete sewer line repair, cleaning, and maintenance services. Trenchless repair, camera inspection, and emergency service. Call (727) 755-7000!"
+        description="Complete sewer line repair, cleaning & maintenance. Trenchless & traditional methods available. Camera inspection included. Call (727) 755-7000 now!"
         keywords="sewer repair, sewer line cleaning, sewer replacement, trenchless sewer repair, sewer camera inspection"
         canonicalUrl="https://drplumbing.com/services/sewer"
         structuredData={serviceStructuredData("Sewer Services", "Complete sewer line repair, cleaning, and maintenance services.")}

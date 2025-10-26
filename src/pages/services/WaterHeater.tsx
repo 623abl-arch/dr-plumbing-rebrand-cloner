@@ -14,7 +14,7 @@ const WaterHeater = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Water Heater Service | Dr. Plumbing"
-        description="Expert water heater repair, replacement, and maintenance for all brands and models. Tankless, gas, and electric water heater services. Licensed & certified. Call (727) 755-7000!"
+        description="Water heater repair, replacement & maintenance for tankless, gas, and electric systems. All brands serviced. Licensed experts. Call (727) 755-7000 today!"
         keywords="water heater repair, tankless water heater, water heater replacement, water heater installation, gas water heater"
         canonicalUrl="https://drplumbing.com/services/water-heater"
         structuredData={serviceStructuredData("Water Heater Services", "Complete water heater repair, installation, and maintenance services for all types including tankless, gas, and electric systems.")}

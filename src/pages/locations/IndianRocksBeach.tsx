@@ -17,7 +17,7 @@ const IndianRocksBeach = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Indian Rocks Beach Plumber | Dr. Plumbing"
-        description="Expert plumbing services in Indian Rocks Beach, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Indian Rocks Beach plumbing services available 24/7. Fast emergency repairs, drain cleaning & water heaters. Licensed experts. Call (727) 755-7000!"
         keywords="Indian Rocks Beach plumber, plumbing services Indian Rocks Beach FL, emergency plumber Indian Rocks Beach"
         canonicalUrl="https://drplumbing.com/locations/indian-rocks-beach"
       />

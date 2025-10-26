@@ -14,7 +14,7 @@ const Emergency = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="24/7 Emergency Plumbing Services | Dr. Plumbing"
-        description="Fast response emergency plumbing services available 24/7. Licensed plumbers ready to handle burst pipes, severe leaks, and urgent plumbing issues. Call (727) 755-7000 now!"
+        description="Emergency plumber available 24/7 for burst pipes, severe leaks, and urgent plumbing issues. Fast response, expert repairs. Call (727) 755-7000 now!"
         keywords="emergency plumber, 24/7 plumbing, urgent plumbing repair, burst pipe repair, emergency drain cleaning"
         canonicalUrl="https://drplumbing.com/services/emergency"
         structuredData={serviceStructuredData("24/7 Emergency Plumbing", "Fast response emergency plumbing services available around the clock for urgent repairs and maintenance.")}

@@ -17,7 +17,7 @@ const RedingtonBeach = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Redington Beach Plumber | Dr. Plumbing"
-        description="Expert plumbing services in Redington Beach, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Redington Beach plumbing experts serving beachside residents 24/7. Fast emergency response, drains & water heaters. Call (727) 755-7000 today!"
         keywords="Redington Beach plumber, plumbing services Redington Beach FL, emergency plumber Redington Beach"
         canonicalUrl="https://drplumbing.com/locations/redington-beach"
       />

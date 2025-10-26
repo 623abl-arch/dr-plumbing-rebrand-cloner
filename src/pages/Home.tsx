@@ -95,7 +95,7 @@ const Home = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Dr. Plumbing | Expert 24/7 Plumbing Services"
-        description="Dr. Plumbing provides professional plumbing services including emergency repairs, drain cleaning, water heater service, and water damage restoration. Available 24/7. Call (727) 755-7000."
+        description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!"
         keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing"
         canonicalUrl="https://drplumbing.com/"
         structuredData={localBusinessStructuredData}

@@ -17,7 +17,7 @@ const MadeiraBeach = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Madeira Beach Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Madeira Beach, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Madeira Beach plumber serving the island community 24/7. Emergency repairs, drain cleaning & water heaters. Licensed experts. Call (727) 755-7000!"
         keywords="Madeira Beach plumber, plumbing services Madeira Beach FL, emergency plumber Madeira Beach"
         canonicalUrl="https://drplumbing.com/locations/madeira-beach"
       />

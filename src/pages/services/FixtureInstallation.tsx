@@ -12,7 +12,7 @@ const FixtureInstallation = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Fixture Installation | Dr. Plumbing"
-        description="Expert installation of sinks, faucets, toilets, and all plumbing fixtures. Quality workmanship and reliable service. Call (727) 755-7000!"
+        description="Professional fixture installation for sinks, faucets, toilets & all plumbing fixtures. Quality workmanship guaranteed. Call (727) 755-7000 for service!"
         keywords="fixture installation, faucet installation, toilet installation, sink installation, plumbing fixtures"
         canonicalUrl="https://drplumbing.com/services/fixture-installation"
         structuredData={serviceStructuredData("Fixture Installation", "Professional installation of sinks, faucets, toilets, and all plumbing fixtures.")}

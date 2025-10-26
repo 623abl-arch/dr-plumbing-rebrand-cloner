@@ -17,7 +17,7 @@ const SafetyHarbor = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Safety Harbor Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Safety Harbor, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Safety Harbor plumber serving your waterfront community 24/7. Emergency repairs, drain cleaning & water heaters. Licensed pros. Call (727) 755-7000!"
         keywords="Safety Harbor plumber, plumbing services Safety Harbor FL, emergency plumber Safety Harbor"
         canonicalUrl="https://drplumbing.com/locations/safety-harbor"
       />

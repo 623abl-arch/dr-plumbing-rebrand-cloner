@@ -17,7 +17,7 @@ const Tampa = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Tampa Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Tampa, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Tampa's trusted plumber with 24/7 emergency service. Expert drain cleaning, water heater repairs & more. Licensed & insured. Call (727) 755-7000!"
         keywords="Tampa plumber, plumbing services Tampa FL, emergency plumber Tampa, drain cleaning Tampa"
         canonicalUrl="https://drplumbing.com/locations/tampa"
       />

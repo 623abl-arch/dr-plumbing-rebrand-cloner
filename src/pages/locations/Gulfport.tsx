@@ -17,7 +17,7 @@ const Gulfport = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Gulfport Plumber | Dr. Plumbing 24/7"
-        description="Expert plumbing services in Gulfport, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
+        description="Professional Gulfport plumber with 24/7 emergency service. Drain cleaning, water heaters, repairs & more. Licensed & insured. Call (727) 755-7000!"
         keywords="Gulfport plumber, plumbing services Gulfport FL, emergency plumber Gulfport, drain cleaning Gulfport"
         canonicalUrl="https://drplumbing.com/locations/gulfport"
       />
