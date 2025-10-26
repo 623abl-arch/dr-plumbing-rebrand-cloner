@@ -232,8 +232,8 @@ const Home = () => {
                 <div className="flex items-start space-x-3">
                   <Clock className="h-6 w-6 text-secondary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold mb-1">Trusted Since 2010</h4>
-                    <p className="text-sm text-muted-foreground">Over a decade of excellence</p>
+                    <h4 className="font-semibold mb-1">Small Family Business</h4>
+                    <p className="text-sm text-muted-foreground">Home dispatched business serving Palm Harbor, Clearwater, Largo, Oldsmar & Westchase</p>
                   </div>
                 </div>
               </div>
