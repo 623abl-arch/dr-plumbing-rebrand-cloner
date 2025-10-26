@@ -110,7 +110,7 @@ const Home = () => {
         <div className="container mx-auto px-4 relative z-10">
           <div className="max-w-3xl">
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
-              Your Trusted Plumbing Experts
+              Expert Tampa Bay Plumbing Services 24/7
             </h1>
             <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
               Professional care for all your plumbing needs. Available 24/7 for emergencies.

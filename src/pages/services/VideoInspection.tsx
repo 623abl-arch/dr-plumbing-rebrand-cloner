@@ -23,7 +23,7 @@ const VideoInspection = () => {
       <section className="relative bg-gradient-hero text-primary-foreground py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Video Pipe Inspection</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Video Pipe Inspection Services</h1>
             <p className="text-xl opacity-90 mb-8">
               See exactly what's happening inside your pipes with high-definition camera technology.
             </p>

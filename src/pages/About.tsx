@@ -23,7 +23,7 @@ const About = () => {
       <section className="relative bg-gradient-hero text-primary-foreground py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Dr. Plumbing</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Licensed Plumber Serving Tampa Bay Since 2010</h1>
             <p className="text-xl opacity-90">
               Your trusted plumbing experts since 2010, delivering professional care for homes and businesses.
             </p>

@@ -28,7 +28,7 @@ const MadeiraBeach = () => {
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="h-6 w-6" />
-              <h1 className="text-4xl md:text-5xl font-bold">Plumbing Services in Madeira Beach</h1>
+              <h1 className="text-4xl md:text-5xl font-bold">Expert Plumber in Madeira Beach, FL</h1>
             </div>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Your trusted local plumber serving Madeira Beach and surrounding areas. Available 24/7 for emergencies.

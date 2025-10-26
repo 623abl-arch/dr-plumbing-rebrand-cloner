@@ -28,7 +28,7 @@ const Gulfport = () => {
           <div className="max-w-3xl">
             <div className="flex items-center gap-2 mb-4">
               <MapPin className="h-6 w-6" />
-              <h1 className="text-4xl md:text-5xl font-bold">Plumbing Services in Gulfport</h1>
+              <h1 className="text-4xl md:text-5xl font-bold">Professional Plumber in Gulfport, FL</h1>
             </div>
             <p className="text-xl mb-8 text-primary-foreground/90">
               Your trusted local plumber serving Gulfport and surrounding areas. Available 24/7 for emergencies.

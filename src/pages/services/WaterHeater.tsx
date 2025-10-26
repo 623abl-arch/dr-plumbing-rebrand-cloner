@@ -25,7 +25,7 @@ const WaterHeater = () => {
       <section className="relative bg-gradient-hero text-primary-foreground py-20">
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">Water Heater Services</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">Water Heater Repair & Replacement Services</h1>
             <p className="text-xl opacity-90 mb-8">
               Expert repair, maintenance, and replacement for all water heater types. A name you can trust!
             </p>
