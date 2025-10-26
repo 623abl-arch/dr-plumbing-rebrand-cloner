@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Phone, Menu, X } from "lucide-react";
 import { useState } from "react";
+import logoDark from "@/assets/logo-dark.png";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -10,14 +11,12 @@ const Navbar = () => {
     <header className="sticky top-0 z-50 w-full border-b bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
       <div className="container mx-auto px-4">
         <div className="flex h-20 items-center justify-between">
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="flex h-12 w-12 items-center justify-center rounded-full bg-gradient-primary">
-              <span className="text-2xl font-bold text-primary-foreground">Dr</span>
-            </div>
-            <div>
-              <h1 className="text-2xl font-bold text-primary">Dr. Plumbing</h1>
-              <p className="text-xs text-muted-foreground">Expert Care for Your Home</p>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img 
+              src={logoDark} 
+              alt="Dr. Plumbing" 
+              className="h-16 w-auto"
+            />
           </Link>
 
           <nav className="hidden md:flex items-center space-x-8">

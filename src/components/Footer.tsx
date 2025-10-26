@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
+import logoDark from "@/assets/logo-dark.png";
 
 const Footer = () => {
   return (
@@ -7,15 +8,13 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="space-y-4">
-            <div className="flex items-center space-x-3">
-              <div className="flex h-10 w-10 items-center justify-center rounded-full bg-gradient-primary">
-                <span className="text-xl font-bold text-primary-foreground">Dr</span>
-              </div>
-              <div>
-                <h3 className="text-lg font-bold text-primary">Dr. Plumbing</h3>
-                <p className="text-xs text-muted-foreground">Expert Care</p>
-              </div>
-            </div>
+            <Link to="/" className="inline-block">
+              <img 
+                src={logoDark} 
+                alt="Dr. Plumbing" 
+                className="h-12 w-auto"
+              />
+            </Link>
             <p className="text-sm text-muted-foreground">
               Professional plumbing services you can trust. Available 24/7 for emergencies.
             </p>
@@ -27,7 +26,7 @@ const Footer = () => {
               <li><Link to="/services/emergency" className="hover:text-primary transition-colors">Emergency Plumbing</Link></li>
               <li><Link to="/services/drain" className="hover:text-primary transition-colors">Drain Services</Link></li>
               <li><Link to="/services/water-heater" className="hover:text-primary transition-colors">Water Heater</Link></li>
-              <li><Link to="/services/water-damage" className="hover:text-primary transition-colors">Water Damage</Link></li>
+              <li><Link to="/services/water-treatment" className="hover:text-primary transition-colors">Water Treatment</Link></li>
             </ul>
           </div>
 
