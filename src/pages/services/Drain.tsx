@@ -14,7 +14,7 @@ const Drain = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Professional Drain Cleaning & Repair Services | Dr. Plumbing"
-        description="Expert drain cleaning, hydro jetting, camera inspections, and drain repair services. Advanced technology for clogged drains, sewer lines, and plumbing systems. Call (555) 123-4567!"
+        description="Expert drain cleaning, hydro jetting, camera inspections, and drain repair services. Advanced technology for clogged drains, sewer lines, and plumbing systems. Call (727) 755-7000!"
         keywords="drain cleaning, hydro jetting, drain repair, clogged drain, sewer line cleaning, camera inspection"
         canonicalUrl="https://drplumbing.com/services/drain"
         structuredData={serviceStructuredData("Drain Cleaning & Repair", "Professional drain cleaning and repair services using advanced technology including camera inspections and hydro jetting.")}
@@ -203,9 +203,9 @@ const Drain = () => {
           <p className="text-xl mb-8 opacity-90">Contact us today for expert drain cleaning and repair</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
             <Button variant="secondary" size="lg" asChild>

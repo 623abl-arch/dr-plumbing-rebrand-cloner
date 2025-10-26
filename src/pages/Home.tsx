@@ -95,7 +95,7 @@ const Home = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Dr. Plumbing | Expert Plumbing Services 24/7 | Licensed & Insured"
-        description="Dr. Plumbing provides professional plumbing services including emergency repairs, drain cleaning, water heater service, and water damage restoration. Available 24/7. Call (555) 123-4567."
+        description="Dr. Plumbing provides professional plumbing services including emergency repairs, drain cleaning, water heater service, and water damage restoration. Available 24/7. Call (727) 755-7000."
         keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing"
         canonicalUrl="https://drplumbing.com/"
         structuredData={localBusinessStructuredData}
@@ -117,9 +117,9 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="emergency" size="lg" asChild>
-                <a href="tel:555-123-4567">
+                <a href="tel:727-755-7000">
                   <Phone className="mr-2" />
-                  Call (555) 123-4567
+                  Call (727) 755-7000
                 </a>
               </Button>
               <Button variant="secondary" size="lg" asChild>
@@ -238,7 +238,7 @@ const Home = () => {
                 </div>
               </div>
               <Button variant="hero" size="lg" className="mt-8" asChild>
-                <a href="tel:555-123-4567">Call Us Today! (555) 123-4567</a>
+                <a href="tel:727-755-7000">Call Us Today! (727) 755-7000</a>
               </Button>
             </div>
             <div className="relative">
@@ -344,9 +344,9 @@ const Home = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Need Plumbing Services Now?</h2>
           <p className="text-xl mb-8 opacity-90">Our Team of Highly Skilled Plumbers Provides Honest, Dependable Service You Can Trust.</p>
           <Button variant="emergency" size="lg" asChild>
-            <a href="tel:555-123-4567">
+            <a href="tel:727-755-7000">
               <Phone className="mr-2" />
-              Call Now! (555) 123-4567
+              Call Now! (727) 755-7000
             </a>
           </Button>
         </div>

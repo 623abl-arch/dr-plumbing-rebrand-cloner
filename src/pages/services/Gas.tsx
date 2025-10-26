@@ -29,7 +29,7 @@ const Gas = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Gas Line Installation & Repair Services | Dr. Plumbing"
-        description="Expert gas line services including installation, repair, leak detection, and appliance hookups. Licensed & certified gas plumbers. Call (555) 123-4567!"
+        description="Expert gas line services including installation, repair, leak detection, and appliance hookups. Licensed & certified gas plumbers. Call (727) 755-7000!"
         keywords="gas line repair, gas line installation, gas leak detection, gas plumber, gas appliance installation"
         canonicalUrl="https://drplumbing.com/services/gas"
         structuredData={structuredData}
@@ -45,9 +45,9 @@ const Gas = () => {
               Safe, professional gas line installation and repair services
             </p>
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
           </div>
@@ -99,9 +99,9 @@ const Gas = () => {
                 If you smell gas or suspect a gas leak, evacuate the area immediately and call us right away. Do not use any electrical switches, create sparks, or light matches. Our emergency gas leak response team is available 24/7.
               </p>
               <Button variant="destructive" size="lg" asChild>
-                <a href="tel:555-123-4567">
+                <a href="tel:727-755-7000">
                   <Phone className="mr-2" />
-                  Emergency: (555) 123-4567
+                  Emergency: (727) 755-7000
                 </a>
               </Button>
             </div>
@@ -132,9 +132,9 @@ const Gas = () => {
           <p className="text-xl mb-8 opacity-90">Contact our licensed gas experts today</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
             <Button variant="secondary" size="lg" asChild>

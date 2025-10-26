@@ -14,7 +14,7 @@ const Emergency = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="24/7 Emergency Plumbing Services | Dr. Plumbing"
-        description="Fast response emergency plumbing services available 24/7. Licensed plumbers ready to handle burst pipes, severe leaks, and urgent plumbing issues. Call (555) 123-4567 now!"
+        description="Fast response emergency plumbing services available 24/7. Licensed plumbers ready to handle burst pipes, severe leaks, and urgent plumbing issues. Call (727) 755-7000 now!"
         keywords="emergency plumber, 24/7 plumbing, urgent plumbing repair, burst pipe repair, emergency drain cleaning"
         canonicalUrl="https://drplumbing.com/services/emergency"
         structuredData={serviceStructuredData("24/7 Emergency Plumbing", "Fast response emergency plumbing services available around the clock for urgent repairs and maintenance.")}
@@ -30,9 +30,9 @@ const Emergency = () => {
               Fast response when you need it most. Our plumbers are standing by to handle your emergency!
             </p>
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call Now: (555) 123-4567
+                Call Now: (727) 755-7000
               </a>
             </Button>
           </div>
@@ -179,9 +179,9 @@ const Emergency = () => {
           <p className="text-xl mb-8 opacity-90">Don't wait - call us now for immediate assistance!</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Emergency: (555) 123-4567
+                Emergency: (727) 755-7000
               </a>
             </Button>
             <Button variant="secondary" size="lg" asChild>

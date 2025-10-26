@@ -29,7 +29,7 @@ const WaterTreatment = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Water Treatment & Filtration Services | Dr. Plumbing"
-        description="Expert water treatment services including water softeners, reverse osmosis, and whole house filtration systems. Improve your water quality. Call (555) 123-4567!"
+        description="Expert water treatment services including water softeners, reverse osmosis, and whole house filtration systems. Improve your water quality. Call (727) 755-7000!"
         keywords="water treatment, water softener, water filtration, reverse osmosis, water quality"
         canonicalUrl="https://drplumbing.com/services/water-treatment"
         structuredData={structuredData}
@@ -45,9 +45,9 @@ const WaterTreatment = () => {
               Clean, safe, and great-tasting water for your home
             </p>
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
           </div>
@@ -118,9 +118,9 @@ const WaterTreatment = () => {
           <p className="text-xl mb-8 opacity-90">Contact us today for a free water quality assessment</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
             <Button variant="secondary" size="lg" asChild>

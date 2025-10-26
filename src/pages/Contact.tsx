@@ -32,8 +32,8 @@ const Contact = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Contact Dr. Plumbing | Get a Free Estimate | (555) 123-4567"
-        description="Contact Dr. Plumbing for all your plumbing needs. Available 24/7 for emergencies. Get a free estimate today. Call (555) 123-4567 or fill out our contact form."
+        title="Contact Dr. Plumbing | Get a Free Estimate | (727) 755-7000"
+        description="Contact Dr. Plumbing for all your plumbing needs. Available 24/7 for emergencies. Get a free estimate today. Call (727) 755-7000 or fill out our contact form."
         keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact"
         canonicalUrl="https://drplumbing.com/contact"
       />
@@ -91,7 +91,7 @@ const Contact = () => {
                       value={formData.phone}
                       onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                       required
-                      placeholder="(555) 123-4567"
+                      placeholder="(727) 755-7000"
                     />
                   </div>
                   
@@ -147,8 +147,8 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
-                      <a href="tel:555-123-4567" className="text-primary hover:underline text-lg">
-                        (555) 123-4567
+                      <a href="tel:727-755-7000" className="text-primary hover:underline text-lg">
+                        (727) 755-7000
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">24/7 Emergency Service</p>
                     </div>
@@ -201,9 +201,9 @@ const Contact = () => {
                   <h3 className="text-xl font-bold mb-2">Emergency? Call Now!</h3>
                   <p className="mb-4 opacity-90">We're available 24/7 for urgent plumbing issues</p>
                   <Button variant="secondary" size="lg" asChild className="w-full">
-                    <a href="tel:555-123-4567">
+                    <a href="tel:727-755-7000">
                       <Phone className="mr-2" />
-                      (555) 123-4567
+                      (727) 755-7000
                     </a>
                   </Button>
                 </CardContent>

@@ -157,9 +157,9 @@ const About = () => {
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Ready to Experience the Dr. Plumbing Difference?</h2>
           <p className="text-xl mb-8 opacity-90">Contact us today for all your plumbing needs</p>
           <Button variant="emergency" size="lg" asChild>
-            <a href="tel:555-123-4567">
+            <a href="tel:727-755-7000">
               <Phone className="mr-2" />
-              Call Now! (555) 123-4567
+              Call Now! (727) 755-7000
             </a>
           </Button>
         </div>

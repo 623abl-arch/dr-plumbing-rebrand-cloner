@@ -17,7 +17,7 @@ const Services = () => {
     <div className="min-h-screen flex flex-col">
       <SEO 
         title="Professional Plumbing Services | Dr. Plumbing"
-        description="Comprehensive plumbing services including emergency repairs, drain cleaning, water heater service, water damage restoration, and more. Licensed & insured. Call (555) 123-4567!"
+        description="Comprehensive plumbing services including emergency repairs, drain cleaning, water heater service, water damage restoration, and more. Licensed & insured. Call (727) 755-7000!"
         keywords="plumbing services, emergency plumber, drain cleaning, water heater service, plumbing company"
         canonicalUrl="https://drplumbing.com/services"
       />
@@ -127,9 +127,9 @@ const Services = () => {
           <p className="text-xl mb-8 opacity-90">Contact us today for a free estimate</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Button variant="emergency" size="lg" asChild>
-              <a href="tel:555-123-4567">
+              <a href="tel:727-755-7000">
                 <Phone className="mr-2" />
-                Call (555) 123-4567
+                Call (727) 755-7000
               </a>
             </Button>
             <Button variant="secondary" size="lg" asChild>

@@ -12,7 +12,7 @@ export const localBusinessStructuredData = {
     "postalCode": "12345",
     "addressCountry": "US"
   },
-  "telephone": "+1-555-123-4567",
+  "telephone": "+1-727-755-7000",
   "email": "info@drplumbing.com",
   "priceRange": "$$",
   "openingHoursSpecification": {
@@ -67,7 +67,7 @@ export const serviceStructuredData = (serviceName: string, description: string) 
     "@type": "ServiceChannel",
     "servicePhone": {
       "@type": "ContactPoint",
-      "telephone": "+1-555-123-4567",
+      "telephone": "+1-727-755-7000",
       "contactType": "customer service",
       "areaServed": "US",
       "availableLanguage": ["English"]
