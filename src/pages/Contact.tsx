@@ -63,7 +63,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Phone</h3>
-                      <a href="tel:727-755-7000" className="text-primary hover:underline text-lg">
+                      <a href="tel:727-755-7000" className="text-primary hover:underline text-lg font-bold">
                         (727) 755-7000
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">24/7 Emergency Service</p>
@@ -76,7 +76,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Text</h3>
-                      <a href="sms:+17277557000" className="text-primary hover:underline text-lg">
+                      <a href="sms:+17277557000" className="text-primary hover:underline text-lg font-bold">
                         (727) 755-7000
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">Quick response via text</p>
@@ -128,7 +128,7 @@ const Contact = () => {
                   <h3 className="text-xl font-bold mb-2">Emergency? Call Now!</h3>
                   <p className="mb-4 opacity-90">We're available 24/7 for urgent plumbing issues</p>
                   <Button variant="secondary" size="lg" asChild className="w-full">
-                    <a href="tel:727-755-7000">
+                    <a href="tel:727-755-7000" className="font-bold">
                       <Phone className="mr-2" />
                       (727) 755-7000
                     </a>
