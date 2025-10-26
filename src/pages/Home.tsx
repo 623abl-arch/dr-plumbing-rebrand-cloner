@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Phone, Wrench, Droplet, Flame, Filter, CheckCircle, Clock, Shield, ThumbsUp, ChevronLeft, ChevronRight } from "lucide-react";
+import { Phone, Wrench, Droplet, Flame, Filter, Fuel, Settings, CheckCircle, Clock, Shield, ThumbsUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
@@ -13,6 +13,8 @@ import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
 import waterTreatmentImage from "@/assets/water-treatment.jpg";
+import gasServiceImage from "@/assets/gas-service.jpg";
+import rePipeImage from "@/assets/re-pipe.jpg";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 
@@ -147,7 +149,7 @@ const Home = () => {
             <p className="text-xl text-muted-foreground">Quality Plumbing Services. Guaranteed!</p>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             <ServiceCard
               title="Emergency Plumbing"
               description="Our plumbers are waiting to take your emergency calls! Available 24/7 for urgent plumbing issues."
@@ -175,6 +177,20 @@ const Home = () => {
               icon={Filter}
               link="/services/water-treatment"
               image={waterTreatmentImage}
+            />
+            <ServiceCard
+              title="Gas Line Services"
+              description="Licensed gas line installation, repair, and leak detection services. Safe and professional work."
+              icon={Fuel}
+              link="/services/gas"
+              image={gasServiceImage}
+            />
+            <ServiceCard
+              title="Re-Pipe Services"
+              description="Complete re-piping services to replace old, corroded pipes and improve your plumbing system."
+              icon={Settings}
+              link="/services/re-pipe"
+              image={rePipeImage}
             />
           </div>
         </div>
