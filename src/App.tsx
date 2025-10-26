@@ -17,6 +17,25 @@ const WaterHeater = lazy(() => import("./pages/services/WaterHeater"));
 const WaterTreatment = lazy(() => import("./pages/services/WaterTreatment"));
 const Gas = lazy(() => import("./pages/services/Gas"));
 const RePipe = lazy(() => import("./pages/services/RePipe"));
+const Belleair = lazy(() => import("./pages/locations/Belleair"));
+const BeachBluffsShores = lazy(() => import("./pages/locations/BeachBluffsShores"));
+const Clearwater = lazy(() => import("./pages/locations/Clearwater"));
+const ClearwaterBeach = lazy(() => import("./pages/locations/ClearwaterBeach"));
+const Dunedin = lazy(() => import("./pages/locations/Dunedin"));
+const Gulfport = lazy(() => import("./pages/locations/Gulfport"));
+const IndianRocksBeach = lazy(() => import("./pages/locations/IndianRocksBeach"));
+const KennethCity = lazy(() => import("./pages/locations/KennethCity"));
+const Largo = lazy(() => import("./pages/locations/Largo"));
+const MadeiraBeach = lazy(() => import("./pages/locations/MadeiraBeach"));
+const Oldsmar = lazy(() => import("./pages/locations/Oldsmar"));
+const PalmHarbor = lazy(() => import("./pages/locations/PalmHarbor"));
+const PinellasPark = lazy(() => import("./pages/locations/PinellasPark"));
+const RedingtonBeach = lazy(() => import("./pages/locations/RedingtonBeach"));
+const SafetyHarbor = lazy(() => import("./pages/locations/SafetyHarbor"));
+const Seminole = lazy(() => import("./pages/locations/Seminole"));
+const TarponSprings = lazy(() => import("./pages/locations/TarponSprings"));
+const Westchase = lazy(() => import("./pages/locations/Westchase"));
+const Tampa = lazy(() => import("./pages/locations/Tampa"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Loading fallback component
@@ -47,6 +66,25 @@ const App = () => (
               <Route path="/services/water-treatment" element={<WaterTreatment />} />
               <Route path="/services/gas" element={<Gas />} />
               <Route path="/services/re-pipe" element={<RePipe />} />
+              <Route path="/locations/belleair" element={<Belleair />} />
+              <Route path="/locations/beach-bluffs-shores" element={<BeachBluffsShores />} />
+              <Route path="/locations/clearwater" element={<Clearwater />} />
+              <Route path="/locations/clearwater-beach" element={<ClearwaterBeach />} />
+              <Route path="/locations/dunedin" element={<Dunedin />} />
+              <Route path="/locations/gulfport" element={<Gulfport />} />
+              <Route path="/locations/indian-rocks-beach" element={<IndianRocksBeach />} />
+              <Route path="/locations/kenneth-city" element={<KennethCity />} />
+              <Route path="/locations/largo" element={<Largo />} />
+              <Route path="/locations/madeira-beach" element={<MadeiraBeach />} />
+              <Route path="/locations/oldsmar" element={<Oldsmar />} />
+              <Route path="/locations/palm-harbor" element={<PalmHarbor />} />
+              <Route path="/locations/pinellas-park" element={<PinellasPark />} />
+              <Route path="/locations/redington-beach" element={<RedingtonBeach />} />
+              <Route path="/locations/safety-harbor" element={<SafetyHarbor />} />
+              <Route path="/locations/seminole" element={<Seminole />} />
+              <Route path="/locations/tarpon-springs" element={<TarponSprings />} />
+              <Route path="/locations/westchase" element={<Westchase />} />
+              <Route path="/locations/tampa" element={<Tampa />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>

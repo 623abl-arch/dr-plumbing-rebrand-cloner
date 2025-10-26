@@ -352,6 +352,76 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Service Locations Section */}
+      <section className="py-20 bg-background">
+        <div className="container mx-auto px-4">
+          <div className="text-center mb-12">
+            <h2 className="text-3xl md:text-4xl font-bold mb-4">Service Locations</h2>
+            <p className="text-xl text-muted-foreground">Proudly Serving the Greater Tampa Bay Area</p>
+          </div>
+          
+          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <Link to="/locations/belleair" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Belleair</p>
+            </Link>
+            <Link to="/locations/beach-bluffs-shores" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Beach Bluffs Shores</p>
+            </Link>
+            <Link to="/locations/clearwater" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Clearwater</p>
+            </Link>
+            <Link to="/locations/clearwater-beach" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Clearwater Beach</p>
+            </Link>
+            <Link to="/locations/dunedin" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Dunedin</p>
+            </Link>
+            <Link to="/locations/gulfport" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Gulfport</p>
+            </Link>
+            <Link to="/locations/indian-rocks-beach" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Indian Rocks Beach</p>
+            </Link>
+            <Link to="/locations/kenneth-city" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Kenneth City</p>
+            </Link>
+            <Link to="/locations/largo" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Largo</p>
+            </Link>
+            <Link to="/locations/madeira-beach" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Madeira Beach</p>
+            </Link>
+            <Link to="/locations/oldsmar" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Oldsmar</p>
+            </Link>
+            <Link to="/locations/palm-harbor" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Palm Harbor</p>
+            </Link>
+            <Link to="/locations/pinellas-park" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Pinellas Park</p>
+            </Link>
+            <Link to="/locations/redington-beach" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Redington Beach</p>
+            </Link>
+            <Link to="/locations/safety-harbor" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Safety Harbor</p>
+            </Link>
+            <Link to="/locations/seminole" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Seminole</p>
+            </Link>
+            <Link to="/locations/tarpon-springs" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Tarpon Springs</p>
+            </Link>
+            <Link to="/locations/westchase" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Westchase</p>
+            </Link>
+            <Link to="/locations/tampa" className="p-4 border rounded-lg hover:border-primary hover:bg-accent transition-all text-center">
+              <p className="font-semibold">Tampa</p>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       <Footer />
     </div>
   );
