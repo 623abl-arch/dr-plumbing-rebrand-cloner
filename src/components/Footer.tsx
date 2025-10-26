@@ -16,7 +16,7 @@ const Footer = () => {
               />
             </Link>
             <p className="text-sm text-muted-foreground">
-              Professional plumbing services you can trust. Available 24/7 for emergencies.
+              Professional plumbing services you can trust.
             </p>
           </div>
 
