@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Wrench, Droplet, Flame, AlertTriangle, Phone } from "lucide-react";
+import { Wrench, Droplet, Flame, Filter, Zap, Settings, Phone } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
@@ -8,7 +8,9 @@ import { SEO } from "@/components/SEO";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
-import waterDamageImage from "@/assets/water-damage.jpg";
+import waterTreatmentImage from "@/assets/water-treatment.jpg";
+import gasServiceImage from "@/assets/gas-service.jpg";
+import rePipeImage from "@/assets/re-pipe.jpg";
 
 const Services = () => {
   return (
@@ -36,7 +38,7 @@ const Services = () => {
       {/* Services Grid */}
       <section className="py-20 bg-background">
         <div className="container mx-auto px-4">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
             <ServiceCard
               title="Emergency Plumbing Services"
               description="Our plumbers are waiting to take your emergency calls! Available 24/7 for burst pipes, severe leaks, clogged drains, and any urgent plumbing issue that can't wait."
@@ -59,11 +61,25 @@ const Services = () => {
               image={waterHeaterImage}
             />
             <ServiceCard
-              title="Water Damage Restoration"
-              description="We have the experience and expertise needed for all your water damage problems. Fast response, professional restoration, and complete peace of mind."
-              icon={AlertTriangle}
-              link="/services/water-damage"
-              image={waterDamageImage}
+              title="Water Treatment & Filtration"
+              description="Improve your water quality with our professional water treatment solutions including water softeners, reverse osmosis, and whole house filtration systems."
+              icon={Filter}
+              link="/services/water-treatment"
+              image={waterTreatmentImage}
+            />
+            <ServiceCard
+              title="Gas Line Services"
+              description="Licensed gas line installation, repair, and leak detection. Safe, professional service for all your gas appliance and piping needs. Emergency service available."
+              icon={Zap}
+              link="/services/gas"
+              image={gasServiceImage}
+            />
+            <ServiceCard
+              title="Re-Piping Services"
+              description="Complete home re-piping with modern copper or PEX piping. Replace old, corroded pipes for improved water quality and pressure. Quality installation guaranteed."
+              icon={Settings}
+              link="/services/re-pipe"
+              image={rePipeImage}
             />
           </div>
         </div>

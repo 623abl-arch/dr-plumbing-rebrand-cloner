@@ -14,7 +14,9 @@ const Contact = lazy(() => import("./pages/Contact"));
 const Emergency = lazy(() => import("./pages/services/Emergency"));
 const Drain = lazy(() => import("./pages/services/Drain"));
 const WaterHeater = lazy(() => import("./pages/services/WaterHeater"));
-const WaterDamage = lazy(() => import("./pages/services/WaterDamage"));
+const WaterTreatment = lazy(() => import("./pages/services/WaterTreatment"));
+const Gas = lazy(() => import("./pages/services/Gas"));
+const RePipe = lazy(() => import("./pages/services/RePipe"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Loading fallback component
@@ -42,7 +44,9 @@ const App = () => (
               <Route path="/services/emergency" element={<Emergency />} />
               <Route path="/services/drain" element={<Drain />} />
               <Route path="/services/water-heater" element={<WaterHeater />} />
-              <Route path="/services/water-damage" element={<WaterDamage />} />
+              <Route path="/services/water-treatment" element={<WaterTreatment />} />
+              <Route path="/services/gas" element={<Gas />} />
+              <Route path="/services/re-pipe" element={<RePipe />} />
               {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
               <Route path="*" element={<NotFound />} />
             </Routes>
