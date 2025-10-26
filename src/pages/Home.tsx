@@ -123,7 +123,7 @@ const Home = () => {
                 </a>
               </Button>
               <Button variant="secondary" size="lg" asChild>
-                <Link to="/services">View Our Services</Link>
+                <Link to="/services" className="font-bold">View Our Services</Link>
               </Button>
             </div>
           </div>
