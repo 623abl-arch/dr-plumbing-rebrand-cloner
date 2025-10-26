@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SEO } from "@/components/SEO";
@@ -67,6 +67,19 @@ const Contact = () => {
                         (727) 755-7000
                       </a>
                       <p className="text-sm text-muted-foreground mt-1">24/7 Emergency Service</p>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start space-x-4">
+                    <div className="flex h-12 w-12 items-center justify-center rounded-full bg-accent flex-shrink-0">
+                      <MessageSquare className="h-6 w-6 text-accent-foreground" />
+                    </div>
+                    <div>
+                      <h3 className="font-semibold mb-1">Text</h3>
+                      <a href="sms:+17277557000" className="text-primary hover:underline text-lg">
+                        (727) 755-7000
+                      </a>
+                      <p className="text-sm text-muted-foreground mt-1">Quick response via text</p>
                     </div>
                   </div>
 
