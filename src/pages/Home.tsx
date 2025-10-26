@@ -190,7 +190,7 @@ const Home = () => {
               </div>
             </div>
             <Button variant="outline" size="sm" asChild>
-              <a href="https://www.google.com/search?q=dr+plumbing" target="_blank" rel="noopener noreferrer">
+              <a href="https://g.page/r/CV0NtCTnM37dEBE/review" target="_blank" rel="noopener noreferrer">
                 View all reviews on Google
               </a>
             </Button>
