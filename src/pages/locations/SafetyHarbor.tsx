@@ -109,6 +109,40 @@ const SafetyHarbor = () => {
         </div>
       </section>
 
+      <section className="py-20 bg-muted/50">
+        <div className="container mx-auto px-4">
+          <div className="max-w-4xl mx-auto">
+            <h2 className="text-3xl font-bold mb-8 text-center">Additional Services</h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Fixture Installation</h3>
+                <p className="text-muted-foreground">Professional installation of sinks, faucets, toilets, and all plumbing fixtures.</p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Pipe Repair & Replacement</h3>
+                <p className="text-muted-foreground">Expert repairs and replacements for damaged or aging pipes.</p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Leak Detection</h3>
+                <p className="text-muted-foreground">Advanced technology to find and fix hidden leaks before they cause damage.</p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Video Inspection</h3>
+                <p className="text-muted-foreground">Camera inspections to accurately diagnose drain and pipe issues.</p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Sewer Services</h3>
+                <p className="text-muted-foreground">Complete sewer line repair, cleaning, and maintenance services.</p>
+              </div>
+              <div className="p-6 bg-card rounded-lg border">
+                <h3 className="text-xl font-bold mb-3">Maintenance Plans</h3>
+                <p className="text-muted-foreground">Preventive maintenance to keep your plumbing system running smoothly.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section className="py-20 bg-gradient-primary text-primary-foreground">
         <div className="container mx-auto px-4 text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Need a Plumber in Safety Harbor?</h2>
