@@ -67,7 +67,7 @@ const Westchase = () => {
             />
             <ServiceCard
               title="Water Heater Repair"
-              description="Water heater repair, maintenance, and replacement."
+              description="Water heater repair, maintenance, and replacement, including tankless systems."
               icon={Flame}
               link="/services/water-heater"
               image={waterHeaterImage}
