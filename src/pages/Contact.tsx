@@ -5,7 +5,6 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SEO } from "@/components/SEO";
 import { useEffect } from "react";
-
 const Contact = () => {
   useEffect(() => {
     // Load Jobber script
@@ -14,22 +13,13 @@ const Contact = () => {
     script.setAttribute('clienthub_id', 'a0b6124c-0b73-4561-a68a-90eb220c3719-331256');
     script.setAttribute('form_url', 'https://clienthub.getjobber.com/client_hubs/a0b6124c-0b73-4561-a68a-90eb220c3719/public/work_request/embedded_work_request_form?form_id=331256');
     script.async = true;
-    
     document.body.appendChild(script);
-
     return () => {
       document.body.removeChild(script);
     };
   }, []);
-
-  return (
-    <div className="min-h-screen flex flex-col">
-      <SEO 
-        title="Contact Dr. Plumbing | Get a Free Estimate | (727) 755-7000"
-        description="Contact Dr. Plumbing for all your plumbing needs. Available 24/7 for emergencies. Get a free estimate today. Call (727) 755-7000 or fill out our contact form."
-        keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact"
-        canonicalUrl="https://drplumbing.com/contact"
-      />
+  return <div className="min-h-screen flex flex-col">
+      <SEO title="Contact Dr. Plumbing | Get a Free Estimate | (727) 755-7000" description="Contact Dr. Plumbing for all your plumbing needs. Available 24/7 for emergencies. Get a free estimate today. Call (727) 755-7000 or fill out our contact form." keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact" canonicalUrl="https://drplumbing.com/contact" />
       <Navbar />
       
       {/* Hero Section */}
@@ -86,9 +76,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">Email</h3>
-                      <a href="mailto:info@drplumbing.com" className="text-primary hover:underline">
-                        info@drplumbing.com
-                      </a>
+                      <a href="mailto:info@drplumbing.com" className="text-primary hover:underline">help@drplumbing.com</a>
                       <p className="text-sm text-muted-foreground mt-1">Response within 24 hours</p>
                     </div>
                   </div>
@@ -140,8 +128,6 @@ const Contact = () => {
       </section>
 
       <Footer />
-    </div>
-  );
+    </div>;
 };
-
 export default Contact;
