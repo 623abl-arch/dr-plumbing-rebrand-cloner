@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Phone, Wrench, Droplet, Flame, AlertTriangle, CheckCircle, Clock, Shield, ThumbsUp, ChevronLeft, ChevronRight } from "lucide-react";
+import { Phone, Wrench, Droplet, Flame, Filter, CheckCircle, Clock, Shield, ThumbsUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
@@ -12,7 +12,7 @@ import heroImage from "@/assets/hero-plumbing.jpg";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
-import waterDamageImage from "@/assets/water-damage.jpg";
+import waterTreatmentImage from "@/assets/water-treatment.jpg";
 import useEmblaCarousel from "embla-carousel-react";
 import { useCallback, useEffect, useState } from "react";
 
@@ -132,9 +132,9 @@ const Home = () => {
       <div className="bg-accent border-b">
         <div className="container mx-auto px-4 py-4">
           <p className="text-center text-accent-foreground">
-            <AlertTriangle className="inline-block mr-2 h-5 w-5" />
-            <strong>Did You Know?</strong> Water damage restoration costs $2,400 - $4,250 on average. 
-            <span className="text-emergency font-semibold ml-2">Don't wait, call us now!</span>
+            <Phone className="inline-block mr-2 h-5 w-5" />
+            <strong>24/7 Emergency Service Available!</strong> We're here when you need us most.
+            <span className="text-emergency font-semibold ml-2">Call now for immediate assistance!</span>
           </p>
         </div>
       </div>
@@ -170,11 +170,11 @@ const Home = () => {
               image={waterHeaterImage}
             />
             <ServiceCard
-              title="Water Damage"
-              description="We have the experience and expertise needed for all your water damage restoration problems."
-              icon={AlertTriangle}
-              link="/services/water-damage"
-              image={waterDamageImage}
+              title="Water Treatment"
+              description="Improve your water quality with professional water treatment solutions and filtration systems."
+              icon={Filter}
+              link="/services/water-treatment"
+              image={waterTreatmentImage}
             />
           </div>
         </div>
