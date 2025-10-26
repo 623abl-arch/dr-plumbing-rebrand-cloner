@@ -35,7 +35,7 @@ const Navbar = () => {
           </nav>
 
           <div className="hidden md:flex items-center space-x-4">
-            <a href="tel:727-755-7000" className="flex items-center text-sm font-semibold text-emergency">
+            <a href="tel:727-755-7000" className="flex items-center text-sm font-bold text-emergency">
               <Phone className="mr-2 h-4 w-4" />
               (727) 755-7000
             </a>
@@ -83,7 +83,7 @@ const Navbar = () => {
             >
               Contact
             </Link>
-            <a href="tel:727-755-7000" className="flex items-center py-2 text-sm font-semibold text-emergency">
+            <a href="tel:727-755-7000" className="flex items-center py-2 text-sm font-bold text-emergency">
               <Phone className="mr-2 h-4 w-4" />
               (727) 755-7000
             </a>
