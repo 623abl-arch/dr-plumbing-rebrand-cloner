@@ -1,33 +1,26 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
-import { Label } from "@/components/ui/label";
 import { Phone, Mail, MapPin, Clock } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SEO } from "@/components/SEO";
-import { useState } from "react";
-import { useToast } from "@/hooks/use-toast";
+import { useEffect } from "react";
 
 const Contact = () => {
-  const { toast } = useToast();
-  const [formData, setFormData] = useState({
-    name: "",
-    email: "",
-    phone: "",
-    service: "",
-    message: "",
-  });
+  useEffect(() => {
+    // Load Jobber script
+    const script = document.createElement('script');
+    script.src = 'https://d3ey4dbjkt2f6s.cloudfront.net/assets/static_link/work_request_embed_snippet.js';
+    script.setAttribute('clienthub_id', 'a0b6124c-0b73-4561-a68a-90eb220c3719-331256');
+    script.setAttribute('form_url', 'https://clienthub.getjobber.com/client_hubs/a0b6124c-0b73-4561-a68a-90eb220c3719/public/work_request/embedded_work_request_form?form_id=331256');
+    script.async = true;
+    
+    document.body.appendChild(script);
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    toast({
-      title: "Message Sent!",
-      description: "We'll get back to you as soon as possible.",
-    });
-    setFormData({ name: "", email: "", phone: "", service: "", message: "" });
-  };
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
 
   return (
     <div className="min-h-screen flex flex-col">
@@ -59,74 +52,7 @@ const Contact = () => {
             <Card>
               <CardContent className="p-6">
                 <h2 className="text-2xl font-bold mb-6">Schedule Service</h2>
-                <form onSubmit={handleSubmit} className="space-y-4">
-                  <div>
-                    <Label htmlFor="name">Full Name *</Label>
-                    <Input
-                      id="name"
-                      value={formData.name}
-                      onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                      required
-                      placeholder="John Doe"
-                    />
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="email">Email Address *</Label>
-                    <Input
-                      id="email"
-                      type="email"
-                      value={formData.email}
-                      onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                      required
-                      placeholder="john@example.com"
-                    />
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="phone">Phone Number *</Label>
-                    <Input
-                      id="phone"
-                      type="tel"
-                      value={formData.phone}
-                      onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                      required
-                      placeholder="(727) 755-7000"
-                    />
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="service">Service Needed</Label>
-                    <select
-                      id="service"
-                      value={formData.service}
-                      onChange={(e) => setFormData({ ...formData, service: e.target.value })}
-                      className="flex h-10 w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
-                    >
-                      <option value="">Select a service</option>
-                      <option value="emergency">Emergency Plumbing</option>
-                      <option value="drain">Drain Services</option>
-                      <option value="water-heater">Water Heater</option>
-                      <option value="water-damage">Water Damage</option>
-                      <option value="other">Other</option>
-                    </select>
-                  </div>
-                  
-                  <div>
-                    <Label htmlFor="message">Message</Label>
-                    <Textarea
-                      id="message"
-                      value={formData.message}
-                      onChange={(e) => setFormData({ ...formData, message: e.target.value })}
-                      placeholder="Please describe your plumbing issue..."
-                      rows={4}
-                    />
-                  </div>
-                  
-                  <Button type="submit" variant="hero" className="w-full" size="lg">
-                    Send Message
-                  </Button>
-                </form>
+                <div id="a0b6124c-0b73-4561-a68a-90eb220c3719-331256"></div>
               </CardContent>
             </Card>
 
