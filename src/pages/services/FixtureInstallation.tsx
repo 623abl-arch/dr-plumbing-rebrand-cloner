@@ -11,7 +11,7 @@ const FixtureInstallation = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Professional Fixture Installation Services | Dr. Plumbing"
+        title="Fixture Installation | Dr. Plumbing"
         description="Expert installation of sinks, faucets, toilets, and all plumbing fixtures. Quality workmanship and reliable service. Call (727) 755-7000!"
         keywords="fixture installation, faucet installation, toilet installation, sink installation, plumbing fixtures"
         canonicalUrl="https://drplumbing.com/services/fixture-installation"

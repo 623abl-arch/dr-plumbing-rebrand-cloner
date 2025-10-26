@@ -16,7 +16,7 @@ const PinellasPark = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Pinellas Park Plumber | Dr. Plumbing Services | 24/7 Emergency"
+        title="Pinellas Park Plumber | Dr. Plumbing 24/7"
         description="Expert plumbing services in Pinellas Park, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
         keywords="Pinellas Park plumber, plumbing services Pinellas Park FL, emergency plumber Pinellas Park"
         canonicalUrl="https://drplumbing.com/locations/pinellas-park"

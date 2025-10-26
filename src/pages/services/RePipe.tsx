@@ -28,7 +28,7 @@ const RePipe = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Home Re-Piping Services | Pipe Replacement | Dr. Plumbing"
+        title="Home Re-Piping Service | Dr. Plumbing"
         description="Expert re-piping services for residential properties. Replace old pipes with modern copper or PEX systems. Quality installation guaranteed. Call (727) 755-7000!"
         keywords="re-piping, pipe replacement, copper piping, PEX piping, home re-pipe, galvanized pipe replacement"
         canonicalUrl="https://drplumbing.com/services/re-pipe"

@@ -13,7 +13,7 @@ const WaterHeater = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Water Heater Repair, Installation & Service | Dr. Plumbing"
+        title="Water Heater Service | Dr. Plumbing"
         description="Expert water heater repair, replacement, and maintenance for all brands and models. Tankless, gas, and electric water heater services. Licensed & certified. Call (727) 755-7000!"
         keywords="water heater repair, tankless water heater, water heater replacement, water heater installation, gas water heater"
         canonicalUrl="https://drplumbing.com/services/water-heater"

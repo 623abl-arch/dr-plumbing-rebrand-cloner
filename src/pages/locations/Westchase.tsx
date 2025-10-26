@@ -16,7 +16,7 @@ const Westchase = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Westchase Plumber | Dr. Plumbing Services | 24/7 Emergency"
+        title="Westchase Plumber | Dr. Plumbing 24/7"
         description="Expert plumbing services in Westchase, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
         keywords="Westchase plumber, plumbing services Westchase FL, emergency plumber Westchase, drain cleaning Westchase"
         canonicalUrl="https://drplumbing.com/locations/westchase"

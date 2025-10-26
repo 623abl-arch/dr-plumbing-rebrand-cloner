@@ -11,7 +11,7 @@ const SewerServices = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Sewer Line Repair & Cleaning Services | Dr. Plumbing"
+        title="Sewer Line Service | Dr. Plumbing"
         description="Complete sewer line repair, cleaning, and maintenance services. Trenchless repair, camera inspection, and emergency service. Call (727) 755-7000!"
         keywords="sewer repair, sewer line cleaning, sewer replacement, trenchless sewer repair, sewer camera inspection"
         canonicalUrl="https://drplumbing.com/services/sewer"

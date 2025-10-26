@@ -16,7 +16,7 @@ const Belleair = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Belleair Plumber | Dr. Plumbing Services | 24/7 Emergency"
+        title="Belleair Plumber | Dr. Plumbing 24/7"
         description="Expert plumbing services in Belleair, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
         keywords="Belleair plumber, plumbing services Belleair FL, emergency plumber Belleair, drain cleaning Belleair"
         canonicalUrl="https://drplumbing.com/locations/belleair"

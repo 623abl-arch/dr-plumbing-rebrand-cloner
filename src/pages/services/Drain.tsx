@@ -13,7 +13,7 @@ const Drain = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Professional Drain Cleaning & Repair Services | Dr. Plumbing"
+        title="Drain Cleaning & Repair | Dr. Plumbing"
         description="Expert drain cleaning, hydro jetting, camera inspections, and drain repair services. Advanced technology for clogged drains, sewer lines, and plumbing systems. Call (727) 755-7000!"
         keywords="drain cleaning, hydro jetting, drain repair, clogged drain, sewer line cleaning, camera inspection"
         canonicalUrl="https://drplumbing.com/services/drain"

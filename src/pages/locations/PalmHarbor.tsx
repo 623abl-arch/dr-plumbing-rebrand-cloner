@@ -16,7 +16,7 @@ const PalmHarbor = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Palm Harbor Plumber | Dr. Plumbing Services | 24/7 Emergency"
+        title="Palm Harbor Plumber | Dr. Plumbing 24/7"
         description="Expert plumbing services in Palm Harbor, FL. Available 24/7 for emergency repairs, drain cleaning, water heater service. Licensed & insured. Call (727) 755-7000."
         keywords="Palm Harbor plumber, plumbing services Palm Harbor FL, emergency plumber Palm Harbor, drain cleaning Palm Harbor"
         canonicalUrl="https://drplumbing.com/locations/palm-harbor"

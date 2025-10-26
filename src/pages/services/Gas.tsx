@@ -28,7 +28,7 @@ const Gas = () => {
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
-        title="Gas Line Installation & Repair Services | Dr. Plumbing"
+        title="Gas Line Service | Dr. Plumbing"
         description="Expert gas line services including installation, repair, leak detection, and appliance hookups. Licensed & certified gas plumbers. Call (727) 755-7000!"
         keywords="gas line repair, gas line installation, gas leak detection, gas plumber, gas appliance installation"
         canonicalUrl="https://drplumbing.com/services/gas"
