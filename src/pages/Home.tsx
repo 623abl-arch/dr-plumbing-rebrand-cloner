@@ -225,8 +225,8 @@ const Home = () => {
                 <div className="flex items-start space-x-3">
                   <ThumbsUp className="h-6 w-6 text-secondary mt-1 flex-shrink-0" />
                   <div>
-                    <h4 className="font-semibold mb-1">Good Reputation</h4>
-                    <p className="text-sm text-muted-foreground">Trusted by thousands of customers</p>
+                    <h4 className="font-semibold mb-1">Veteran Owned & Operated</h4>
+                    <p className="text-sm text-muted-foreground">Both owners are proud military veterans</p>
                   </div>
                 </div>
                 <div className="flex items-start space-x-3">
