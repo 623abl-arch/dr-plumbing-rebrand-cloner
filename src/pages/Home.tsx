@@ -178,7 +178,7 @@ const Home = () => {
                 </svg>
                 <div className="text-left">
                   <div className="flex items-center gap-1">
-                    <span className="font-bold text-lg">5.0</span>
+                    <span className="font-bold text-lg">4.9</span>
                     <div className="flex">
                       {[...Array(5)].map((_, i) => (
                         <span key={i} className="text-yellow-400 text-sm">★</span>
