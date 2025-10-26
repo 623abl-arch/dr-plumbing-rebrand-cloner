@@ -88,7 +88,7 @@ const Navbar = () => {
               (727) 755-7000
             </a>
             <Button variant="emergency" className="w-full" asChild>
-              <a href="tel:727-755-7000">Emergency Service</a>
+              <Link to="/contact">Schedule Online</Link>
             </Button>
           </div>
         )}
