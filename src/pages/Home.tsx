@@ -1,7 +1,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Link } from "react-router-dom";
-import { Phone, Wrench, Droplet, Flame, AlertTriangle, CheckCircle, Clock, Shield, ThumbsUp } from "lucide-react";
+import { Phone, Wrench, Droplet, Flame, AlertTriangle, CheckCircle, Clock, Shield, ThumbsUp, ChevronLeft, ChevronRight } from "lucide-react";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
@@ -13,8 +13,82 @@ import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
 import waterHeaterImage from "@/assets/water-heater.jpg";
 import waterDamageImage from "@/assets/water-damage.jpg";
+import useEmblaCarousel from "embla-carousel-react";
+import { useCallback, useEffect, useState } from "react";
 
 const Home = () => {
+  const [emblaRef, emblaApi] = useEmblaCarousel({ loop: true, align: 'start' });
+  const [canScrollPrev, setCanScrollPrev] = useState(false);
+  const [canScrollNext, setCanScrollNext] = useState(false);
+
+  const scrollPrev = useCallback(() => emblaApi?.scrollPrev(), [emblaApi]);
+  const scrollNext = useCallback(() => emblaApi?.scrollNext(), [emblaApi]);
+
+  const onSelect = useCallback(() => {
+    if (!emblaApi) return;
+    setCanScrollPrev(emblaApi.canScrollPrev());
+    setCanScrollNext(emblaApi.canScrollNext());
+  }, [emblaApi]);
+
+  useEffect(() => {
+    if (!emblaApi) return;
+    onSelect();
+    emblaApi.on('select', onSelect);
+    emblaApi.on('reInit', onSelect);
+  }, [emblaApi, onSelect]);
+
+  const reviews = [
+    {
+      text: "Matt fixed my sink, but he also took the time to explain what was wrong and how I can prevent it in the future. Excellent service!",
+      author: "Jerry Robertson",
+      rating: 5
+    },
+    {
+      text: "The Dr. Plumbing techs showed up on time to fix my leaky faucet. They told me exactly what needed to be done, the cost, and timeline. Transparent and professional!",
+      author: "Clair Stuart",
+      rating: 5
+    },
+    {
+      text: "You guys are the absolute best! We love you and will never go anywhere else. Our water heater is like new again thanks to your service!",
+      author: "Betsy Davis",
+      rating: 5
+    },
+    {
+      text: "Fast response time and professional service. They fixed our emergency pipe burst at 2 AM. Highly recommend!",
+      author: "Michael Chen",
+      rating: 5
+    },
+    {
+      text: "Great experience from start to finish. Fair pricing, quality work, and friendly technicians. Will definitely use them again.",
+      author: "Sarah Johnson",
+      rating: 5
+    },
+    {
+      text: "They saved our basement from flooding! Quick response and thorough work. Can't thank them enough.",
+      author: "David Martinez",
+      rating: 5
+    },
+    {
+      text: "Professional, courteous, and efficient. Fixed our drain issue and gave us tips to prevent future problems.",
+      author: "Emily Wilson",
+      rating: 5
+    },
+    {
+      text: "Best plumbing service I've ever used. They replaced our old water heater and the price was very reasonable.",
+      author: "Robert Thompson",
+      rating: 5
+    }
+  ];
+
+  const GoogleIcon = () => (
+    <svg className="w-5 h-5 opacity-60" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
+      <path fill="#FF3D00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z"/>
+      <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
+      <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
+    </svg>
+  );
+
   return (
     <div className="min-h-screen flex flex-col">
       <SEO 
@@ -196,81 +270,54 @@ const Home = () => {
             </Button>
           </div>
           
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
-            <Card className="border-l-4 border-l-primary">
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-lg">★</span>
-                    ))}
+          <div className="relative">
+            <div className="overflow-hidden" ref={emblaRef}>
+              <div className="flex gap-6">
+                {reviews.map((review, index) => (
+                  <div key={index} className="flex-[0_0_100%] md:flex-[0_0_calc(50%-12px)] lg:flex-[0_0_calc(33.333%-16px)] min-w-0">
+                    <Card className="border-l-4 border-l-primary h-full">
+                      <CardContent className="p-6">
+                        <div className="flex items-center justify-between mb-3">
+                          <div className="flex">
+                            {[...Array(review.rating)].map((_, i) => (
+                              <span key={i} className="text-yellow-400 text-lg">★</span>
+                            ))}
+                          </div>
+                          <GoogleIcon />
+                        </div>
+                        <p className="text-muted-foreground mb-4 leading-relaxed">
+                          "{review.text}"
+                        </p>
+                        <div>
+                          <p className="font-semibold text-foreground">{review.author}</p>
+                          <p className="text-xs text-muted-foreground">Posted on Google</p>
+                        </div>
+                      </CardContent>
+                    </Card>
                   </div>
-                  <svg className="w-5 h-5 opacity-60" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
-                    <path fill="#FF3D00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z"/>
-                    <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
-                    <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
-                  </svg>
-                </div>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "Matt fixed my sink, but he also took the time to explain what was wrong and how I can prevent it in the future. Excellent service!"
-                </p>
-                <div>
-                  <p className="font-semibold text-foreground">Jerry Robertson</p>
-                  <p className="text-xs text-muted-foreground">Posted on Google</p>
-                </div>
-              </CardContent>
-            </Card>
+                ))}
+              </div>
+            </div>
             
-            <Card className="border-l-4 border-l-primary">
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-lg">★</span>
-                    ))}
-                  </div>
-                  <svg className="w-5 h-5 opacity-60" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
-                    <path fill="#FF3D00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z"/>
-                    <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
-                    <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
-                  </svg>
-                </div>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "The Dr. Plumbing techs showed up on time to fix my leaky faucet. They told me exactly what needed to be done, the cost, and timeline. Transparent and professional!"
-                </p>
-                <div>
-                  <p className="font-semibold text-foreground">Clair Stuart</p>
-                  <p className="text-xs text-muted-foreground">Posted on Google</p>
-                </div>
-              </CardContent>
-            </Card>
+            <Button
+              variant="outline"
+              size="icon"
+              className={`absolute left-0 top-1/2 -translate-y-1/2 -translate-x-4 z-10 rounded-full shadow-lg transition-opacity ${!canScrollPrev ? 'opacity-50 cursor-not-allowed' : 'hover-scale'}`}
+              onClick={scrollPrev}
+              disabled={!canScrollPrev}
+            >
+              <ChevronLeft className="h-4 w-4" />
+            </Button>
             
-            <Card className="border-l-4 border-l-primary">
-              <CardContent className="p-6">
-                <div className="flex items-center justify-between mb-3">
-                  <div className="flex">
-                    {[...Array(5)].map((_, i) => (
-                      <span key={i} className="text-yellow-400 text-lg">★</span>
-                    ))}
-                  </div>
-                  <svg className="w-5 h-5 opacity-60" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
-                    <path fill="#FFC107" d="M43.611 20.083H42V20H24v8h11.303c-1.649 4.657-6.08 8-11.303 8c-6.627 0-12-5.373-12-12s5.373-12 12-12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C12.955 4 4 12.955 4 24s8.955 20 20 20s20-8.955 20-20c0-1.341-.138-2.65-.389-3.917z"/>
-                    <path fill="#FF3D00" d="m6.306 14.691l6.571 4.819C14.655 15.108 18.961 12 24 12c3.059 0 5.842 1.154 7.961 3.039l5.657-5.657C34.046 6.053 29.268 4 24 4C16.318 4 9.656 8.337 6.306 14.691z"/>
-                    <path fill="#4CAF50" d="M24 44c5.166 0 9.86-1.977 13.409-5.192l-6.19-5.238A11.91 11.91 0 0 1 24 36c-5.202 0-9.619-3.317-11.283-7.946l-6.522 5.025C9.505 39.556 16.227 44 24 44z"/>
-                    <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z"/>
-                  </svg>
-                </div>
-                <p className="text-muted-foreground mb-4 leading-relaxed">
-                  "You guys are the absolute best! We love you and will never go anywhere else. Our water heater is like new again thanks to your service!"
-                </p>
-                <div>
-                  <p className="font-semibold text-foreground">Betsy Davis</p>
-                  <p className="text-xs text-muted-foreground">Posted on Google</p>
-                </div>
-              </CardContent>
-            </Card>
+            <Button
+              variant="outline"
+              size="icon"
+              className={`absolute right-0 top-1/2 -translate-y-1/2 translate-x-4 z-10 rounded-full shadow-lg transition-opacity ${!canScrollNext ? 'opacity-50 cursor-not-allowed' : 'hover-scale'}`}
+              onClick={scrollNext}
+              disabled={!canScrollNext}
+            >
+              <ChevronRight className="h-4 w-4" />
+            </Button>
           </div>
         </div>
       </section>
