@@ -15,7 +15,7 @@ const About = () => {
         title="About Dr. Plumbing | Licensed Since 2010"
         description="Trusted Tampa Bay plumber since 2010. Licensed, insured, and delivering professional plumbing services with integrity. Your local experts you can count on."
         keywords="about plumbing company, licensed plumber, insured plumber, professional plumbing team"
-        canonicalUrl="https://drplumbing.com/about"
+        canonicalUrl="https://dr.plumbing/about"
       />
       <Navbar />
       

@@ -19,7 +19,7 @@ const TarponSprings = () => {
         title="Tarpon Springs Plumber | Dr. Plumbing 24/7"
         description="Tarpon Springs plumber serving your community 24/7. Emergency repairs, drain cleaning & water heaters. Licensed & insured. Call (727) 755-7000 today!"
         keywords="Tarpon Springs plumber, plumbing services Tarpon Springs FL, emergency plumber Tarpon Springs"
-        canonicalUrl="https://drplumbing.com/locations/tarpon-springs"
+        canonicalUrl="https://dr.plumbing/locations/tarpon-springs"
       />
       <Navbar />
       

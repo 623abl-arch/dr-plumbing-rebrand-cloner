@@ -19,7 +19,7 @@ const Services = () => {
         title="Professional Plumbing Services | Dr. Plumbing"
         description="Complete plumbing solutions for your home or business. Emergency repairs, drain cleaning, water heaters, fixtures & more. Licensed experts. Call (727) 755-7000!"
         keywords="plumbing services, emergency plumber, drain cleaning, water heater service, plumbing company"
-        canonicalUrl="https://drplumbing.com/services"
+        canonicalUrl="https://dr.plumbing/services"
       />
       <Navbar />
       

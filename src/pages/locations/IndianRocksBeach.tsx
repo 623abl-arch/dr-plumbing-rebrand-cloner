@@ -19,7 +19,7 @@ const IndianRocksBeach = () => {
         title="Indian Rocks Beach Plumber | Dr. Plumbing"
         description="Indian Rocks Beach plumbing services available 24/7. Fast emergency repairs, drain cleaning & water heaters. Licensed experts. Call (727) 755-7000!"
         keywords="Indian Rocks Beach plumber, plumbing services Indian Rocks Beach FL, emergency plumber Indian Rocks Beach"
-        canonicalUrl="https://drplumbing.com/locations/indian-rocks-beach"
+        canonicalUrl="https://dr.plumbing/locations/indian-rocks-beach"
       />
       <Navbar />
       

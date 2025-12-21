@@ -14,7 +14,7 @@ const PipeRepair = () => {
         title="Pipe Repair & Replacement Services | Dr. Plumbing"
         description="Expert pipe repair & replacement for damaged or aging pipes. Copper, PEX & galvanized services. Fast, reliable repairs. Call (727) 755-7000 today!"
         keywords="pipe repair, pipe replacement, copper pipes, PEX pipes, broken pipe, pipe leak"
-        canonicalUrl="https://drplumbing.com/services/pipe-repair"
+        canonicalUrl="https://dr.plumbing/services/pipe-repair"
         structuredData={serviceStructuredData("Pipe Repair & Replacement", "Expert repairs and replacements for damaged or aging pipes.")}
       />
       <Navbar />

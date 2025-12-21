@@ -31,7 +31,7 @@ const Gas = () => {
         title="Gas Line Service | Dr. Plumbing"
         description="Expert gas line installation, repair & leak detection. Licensed gas plumbers for all appliances & piping needs. Safe service. Call (727) 755-7000 today!"
         keywords="gas line repair, gas line installation, gas leak detection, gas plumber, gas appliance installation"
-        canonicalUrl="https://drplumbing.com/services/gas"
+        canonicalUrl="https://dr.plumbing/services/gas"
         structuredData={structuredData}
       />
       <Navbar />

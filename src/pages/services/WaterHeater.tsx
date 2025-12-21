@@ -16,7 +16,7 @@ const WaterHeater = () => {
         title="Water Heater Service | Dr. Plumbing"
         description="Water heater repair, replacement & maintenance for tankless, gas, and electric systems. All brands serviced. Licensed experts. Call (727) 755-7000 today!"
         keywords="water heater repair, tankless water heater, water heater replacement, water heater installation, gas water heater"
-        canonicalUrl="https://drplumbing.com/services/water-heater"
+        canonicalUrl="https://dr.plumbing/services/water-heater"
         structuredData={serviceStructuredData("Water Heater Services", "Complete water heater repair, installation, and maintenance services for all types including tankless, gas, and electric systems.")}
       />
       <Navbar />

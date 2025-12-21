@@ -19,7 +19,7 @@ const BeachBluffsShores = () => {
         title="Beach Bluffs Shores Plumber | Dr. Plumbing"
         description="Beach Bluffs Shores plumbing experts serving your community 24/7. Emergency repairs, drains & water heaters. Licensed, insured. Call (727) 755-7000!"
         keywords="Beach Bluffs Shores plumber, plumbing services Beach Bluffs Shores FL, emergency plumber Beach Bluffs Shores"
-        canonicalUrl="https://drplumbing.com/locations/beach-bluffs-shores"
+        canonicalUrl="https://dr.plumbing/locations/beach-bluffs-shores"
       />
       <Navbar />
       

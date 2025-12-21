@@ -14,7 +14,7 @@ const FixtureInstallation = () => {
         title="Fixture Installation | Dr. Plumbing"
         description="Professional fixture installation for sinks, faucets, toilets & all plumbing fixtures. Quality workmanship guaranteed. Call (727) 755-7000 for service!"
         keywords="fixture installation, faucet installation, toilet installation, sink installation, plumbing fixtures"
-        canonicalUrl="https://drplumbing.com/services/fixture-installation"
+        canonicalUrl="https://dr.plumbing/services/fixture-installation"
         structuredData={serviceStructuredData("Fixture Installation", "Professional installation of sinks, faucets, toilets, and all plumbing fixtures.")}
       />
       <Navbar />

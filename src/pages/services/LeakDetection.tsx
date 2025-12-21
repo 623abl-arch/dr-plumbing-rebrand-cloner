@@ -14,7 +14,7 @@ const LeakDetection = () => {
         title="Advanced Leak Detection Services | Dr. Plumbing"
         description="Advanced leak detection finds hidden leaks before they cause damage. Non-invasive technology saves time & money. Call (727) 755-7000 for inspection!"
         keywords="leak detection, water leak detection, hidden leaks, leak finder, plumbing leak, slab leak"
-        canonicalUrl="https://drplumbing.com/services/leak-detection"
+        canonicalUrl="https://dr.plumbing/services/leak-detection"
         structuredData={serviceStructuredData("Leak Detection", "Advanced technology to find and fix hidden leaks before they cause damage.")}
       />
       <Navbar />

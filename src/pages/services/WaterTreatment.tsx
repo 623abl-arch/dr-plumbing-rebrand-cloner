@@ -31,7 +31,7 @@ const WaterTreatment = () => {
         title="Water Treatment & Filtration | Dr. Plumbing"
         description="Improve your water quality with professional filtration, softeners & reverse osmosis systems. Cleaner, healthier water for your home. Call (727) 755-7000!"
         keywords="water treatment, water softener, water filtration, reverse osmosis, water quality"
-        canonicalUrl="https://drplumbing.com/services/water-treatment"
+        canonicalUrl="https://dr.plumbing/services/water-treatment"
         structuredData={structuredData}
       />
       <Navbar />

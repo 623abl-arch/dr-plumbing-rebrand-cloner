@@ -14,7 +14,7 @@ const VideoInspection = () => {
         title="Video Pipe Inspection Services | Dr. Plumbing"
         description="HD camera pipe inspections diagnose drain & sewer issues without digging. See inside your pipes for accurate repairs. Call (727) 755-7000 today!"
         keywords="video pipe inspection, camera inspection, sewer camera, drain inspection, pipe camera"
-        canonicalUrl="https://drplumbing.com/services/video-inspection"
+        canonicalUrl="https://dr.plumbing/services/video-inspection"
         structuredData={serviceStructuredData("Video Inspection", "Camera inspections to accurately diagnose drain and pipe issues.")}
       />
       <Navbar />

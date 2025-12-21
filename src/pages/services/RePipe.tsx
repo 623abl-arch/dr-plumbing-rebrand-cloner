@@ -31,7 +31,7 @@ const RePipe = () => {
         title="Home Re-Piping Service | Dr. Plumbing"
         description="Complete home re-piping with modern copper or PEX. Replace old, corroded pipes for better water quality and pressure. Quality guaranteed. Call (727) 755-7000!"
         keywords="re-piping, pipe replacement, copper piping, PEX piping, home re-pipe, galvanized pipe replacement"
-        canonicalUrl="https://drplumbing.com/services/re-pipe"
+        canonicalUrl="https://dr.plumbing/services/re-pipe"
         structuredData={structuredData}
       />
       <Navbar />

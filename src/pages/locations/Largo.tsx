@@ -19,7 +19,7 @@ const Largo = () => {
         title="Largo Plumber | Dr. Plumbing 24/7"
         description="Largo plumbing professionals available 24/7 for emergencies. Expert drain cleaning, water heaters & repairs. Licensed & insured. Call (727) 755-7000!"
         keywords="Largo plumber, plumbing services Largo FL, emergency plumber Largo, drain cleaning Largo"
-        canonicalUrl="https://drplumbing.com/locations/largo"
+        canonicalUrl="https://dr.plumbing/locations/largo"
       />
       <Navbar />
       

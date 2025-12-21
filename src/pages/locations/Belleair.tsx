@@ -19,7 +19,7 @@ const Belleair = () => {
         title="Belleair Plumber | Dr. Plumbing 24/7"
         description="Trusted Belleair plumber for emergency repairs, drain cleaning & water heaters. Licensed, insured, 24/7 service. Your local experts. Call (727) 755-7000!"
         keywords="Belleair plumber, plumbing services Belleair FL, emergency plumber Belleair, drain cleaning Belleair"
-        canonicalUrl="https://drplumbing.com/locations/belleair"
+        canonicalUrl="https://dr.plumbing/locations/belleair"
       />
       <Navbar />
       

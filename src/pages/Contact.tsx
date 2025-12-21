@@ -19,7 +19,7 @@ const Contact = () => {
     };
   }, []);
   return <div className="min-h-screen flex flex-col">
-      <SEO title="Contact Dr. Plumbing | Free Estimate" description="Get your free plumbing estimate today! Available 24/7 for emergencies. Call (727) 755-7000 or complete our contact form for fast, reliable service." keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact" canonicalUrl="https://drplumbing.com/contact" />
+      <SEO title="Contact Dr. Plumbing | Free Estimate" description="Get your free plumbing estimate today! Available 24/7 for emergencies. Call (727) 755-7000 or complete our contact form for fast, reliable service." keywords="contact plumber, plumbing estimate, plumbing quote, emergency plumber contact" canonicalUrl="https://dr.plumbing/contact" />
       <Navbar />
       
       {/* Hero Section */}

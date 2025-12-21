@@ -19,7 +19,7 @@ const RedingtonBeach = () => {
         title="Redington Beach Plumber | Dr. Plumbing"
         description="Redington Beach plumbing experts serving beachside residents 24/7. Fast emergency response, drains & water heaters. Call (727) 755-7000 today!"
         keywords="Redington Beach plumber, plumbing services Redington Beach FL, emergency plumber Redington Beach"
-        canonicalUrl="https://drplumbing.com/locations/redington-beach"
+        canonicalUrl="https://dr.plumbing/locations/redington-beach"
       />
       <Navbar />
       

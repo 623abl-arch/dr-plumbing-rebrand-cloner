@@ -14,7 +14,7 @@ const MaintenancePlans = () => {
         title="Plumbing Maintenance Plans | Dr. Plumbing"
         description="Preventive plumbing maintenance plans with priority service, discounts & annual inspections. Keep your system running smoothly. Call (727) 755-7000!"
         keywords="plumbing maintenance, preventive maintenance, plumbing service plan, plumbing inspection"
-        canonicalUrl="https://drplumbing.com/services/maintenance-plans"
+        canonicalUrl="https://dr.plumbing/services/maintenance-plans"
         structuredData={serviceStructuredData("Maintenance Plans", "Preventive maintenance to keep your plumbing system running smoothly.")}
       />
       <Navbar />
