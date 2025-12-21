@@ -13,4 +13,4 @@ Allow: /
 User-agent: *
 Allow: /
 
-Sitemap: https://drplumbing.com/sitemap.xml
+Sitemap: https://dr.plumbing/sitemap.xml
