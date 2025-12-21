@@ -95,13 +95,13 @@ const Home = () => {
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="emergency" size="lg" asChild>
-                <a href="tel:727-755-7000" className="font-bold">
+                <a href="tel:727-755-7000" className="font-bold text-xl">
                   <Phone className="mr-2" />
                   Call (727) 755-7000
                 </a>
               </Button>
               <Button variant="secondary" size="lg" asChild>
-                <Link to="/contact" className="font-bold">Schedule Online</Link>
+                <Link to="/contact" className="font-bold text-xl">Schedule Online</Link>
               </Button>
             </div>
           </div>
