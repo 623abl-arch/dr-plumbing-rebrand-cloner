@@ -101,7 +101,7 @@ const Home = () => {
                 </a>
               </Button>
               <Button variant="secondary" size="lg" asChild>
-                <Link to="/services" className="font-bold">View Our Services</Link>
+                <Link to="/contact" className="font-bold">Schedule Online</Link>
               </Button>
             </div>
           </div>
