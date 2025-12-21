@@ -19,7 +19,7 @@ const Clearwater = () => {
         title="Clearwater Plumber | Dr. Plumbing 24/7"
         description="Clearwater's trusted plumber since 2010. Emergency repairs, drain cleaning, water heaters & more. Available 24/7, licensed & insured. Call (727) 755-7000!"
         keywords="Clearwater plumber, plumbing services Clearwater FL, emergency plumber Clearwater, drain cleaning Clearwater"
-        canonicalUrl="https://drplumbing.com/locations/clearwater"
+        canonicalUrl="https://dr.plumbing/locations/clearwater"
       />
       <Navbar />
       

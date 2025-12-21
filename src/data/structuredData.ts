@@ -2,7 +2,7 @@ export const localBusinessStructuredData = {
   "@context": "https://schema.org",
   "@type": "Plumber",
   "name": "Dr. Plumbing",
-  "image": "https://drplumbing.com/logo.png",
+  "image": "https://dr.plumbing/logo.png",
   "description": "Professional plumbing services available 24/7. Emergency repairs, drain cleaning, water heater service & water damage restoration.",
   "address": {
     "@type": "PostalAddress",
@@ -38,7 +38,7 @@ export const localBusinessStructuredData = {
     },
     "geoRadius": "50000"
   },
-  "url": "https://drplumbing.com",
+  "url": "https://dr.plumbing",
   "sameAs": [
     "https://facebook.com/drplumbing",
     "https://twitter.com/drplumbing",

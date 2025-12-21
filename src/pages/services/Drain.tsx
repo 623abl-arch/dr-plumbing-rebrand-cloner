@@ -16,7 +16,7 @@ const Drain = () => {
         title="Drain Cleaning & Repair | Dr. Plumbing"
         description="Professional drain cleaning with camera inspections & hydro jetting. Clear tough clogs and keep drains flowing smoothly. Expert service. Call (727) 755-7000!"
         keywords="drain cleaning, hydro jetting, drain repair, clogged drain, sewer line cleaning, camera inspection"
-        canonicalUrl="https://drplumbing.com/services/drain"
+        canonicalUrl="https://dr.plumbing/services/drain"
         structuredData={serviceStructuredData("Drain Cleaning & Repair", "Professional drain cleaning and repair services using advanced technology including camera inspections and hydro jetting.")}
       />
       <Navbar />

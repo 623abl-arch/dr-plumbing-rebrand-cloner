@@ -19,7 +19,7 @@ const Dunedin = () => {
         title="Dunedin Plumber | Dr. Plumbing 24/7"
         description="Dunedin's local plumbing experts serving residents 24/7. Emergency repairs, drains, water heaters & more. Licensed & insured. Call (727) 755-7000!"
         keywords="Dunedin plumber, plumbing services Dunedin FL, emergency plumber Dunedin, drain cleaning Dunedin"
-        canonicalUrl="https://drplumbing.com/locations/dunedin"
+        canonicalUrl="https://dr.plumbing/locations/dunedin"
       />
       <Navbar />
       

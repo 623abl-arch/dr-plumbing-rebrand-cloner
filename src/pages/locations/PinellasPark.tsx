@@ -19,7 +19,7 @@ const PinellasPark = () => {
         title="Pinellas Park Plumber | Dr. Plumbing 24/7"
         description="Pinellas Park plumber available 24/7 for emergency repairs. Expert drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000!"
         keywords="Pinellas Park plumber, plumbing services Pinellas Park FL, emergency plumber Pinellas Park"
-        canonicalUrl="https://drplumbing.com/locations/pinellas-park"
+        canonicalUrl="https://dr.plumbing/locations/pinellas-park"
       />
       <Navbar />
       

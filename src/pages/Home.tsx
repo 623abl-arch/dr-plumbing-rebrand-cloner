@@ -77,7 +77,7 @@ const Home = () => {
       <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" />
     </svg>;
   return <div className="min-h-screen flex flex-col">
-      <SEO title="Dr. Plumbing | Expert 24/7 Plumbing Services" description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!" keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing" canonicalUrl="https://drplumbing.com/" structuredData={localBusinessStructuredData} />
+      <SEO title="Dr. Plumbing | Expert 24/7 Plumbing Services" description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!" keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing" canonicalUrl="https://dr.plumbing/" structuredData={localBusinessStructuredData} />
       <Navbar />
       
       {/* Hero Section */}

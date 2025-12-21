@@ -14,7 +14,7 @@ const SewerServices = () => {
         title="Sewer Line Service | Dr. Plumbing"
         description="Complete sewer line repair, cleaning & maintenance. Trenchless & traditional methods available. Camera inspection included. Call (727) 755-7000 now!"
         keywords="sewer repair, sewer line cleaning, sewer replacement, trenchless sewer repair, sewer camera inspection"
-        canonicalUrl="https://drplumbing.com/services/sewer"
+        canonicalUrl="https://dr.plumbing/services/sewer"
         structuredData={serviceStructuredData("Sewer Services", "Complete sewer line repair, cleaning, and maintenance services.")}
       />
       <Navbar />

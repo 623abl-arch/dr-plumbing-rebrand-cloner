@@ -13,8 +13,8 @@ export const SEO = ({
   title = "Dr. Plumbing | Expert Plumbing Services 24/7 | Licensed & Insured",
   description = "Dr. Plumbing provides professional plumbing services including emergency repairs, drain cleaning, water heater service, and water damage restoration. Available 24/7. Call (727) 755-7000.",
   keywords = "plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing",
-  canonicalUrl = "https://drplumbing.com/",
-  ogImage = "https://drplumbing.com/og-image.jpg",
+  canonicalUrl = "https://dr.plumbing/",
+  ogImage = "https://dr.plumbing/og-image.jpg",
   structuredData
 }: SEOProps) => {
   return (

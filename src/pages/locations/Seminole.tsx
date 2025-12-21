@@ -19,7 +19,7 @@ const Seminole = () => {
         title="Seminole Plumber | Dr. Plumbing 24/7"
         description="Seminole plumbing professionals serving your neighborhood 24/7. Emergency repairs, drains & water heaters. Licensed & insured. Call (727) 755-7000!"
         keywords="Seminole plumber, plumbing services Seminole FL, emergency plumber Seminole, drain cleaning Seminole"
-        canonicalUrl="https://drplumbing.com/locations/seminole"
+        canonicalUrl="https://dr.plumbing/locations/seminole"
       />
       <Navbar />
       

@@ -19,7 +19,7 @@ const PalmHarbor = () => {
         title="Palm Harbor Plumber | Dr. Plumbing 24/7"
         description="Palm Harbor plumbing specialists serving your community 24/7. Emergency service, drain cleaning & water heaters. Licensed & insured. Call (727) 755-7000!"
         keywords="Palm Harbor plumber, plumbing services Palm Harbor FL, emergency plumber Palm Harbor, drain cleaning Palm Harbor"
-        canonicalUrl="https://drplumbing.com/locations/palm-harbor"
+        canonicalUrl="https://dr.plumbing/locations/palm-harbor"
       />
       <Navbar />
       

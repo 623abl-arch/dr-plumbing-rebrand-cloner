@@ -19,7 +19,7 @@ const Westchase = () => {
         title="Westchase Plumber | Dr. Plumbing 24/7"
         description="Westchase plumbing experts available 24/7 for emergency service. Expert drain cleaning, water heaters & repairs. Licensed pros. Call (727) 755-7000!"
         keywords="Westchase plumber, plumbing services Westchase FL, emergency plumber Westchase, drain cleaning Westchase"
-        canonicalUrl="https://drplumbing.com/locations/westchase"
+        canonicalUrl="https://dr.plumbing/locations/westchase"
       />
       <Navbar />
       

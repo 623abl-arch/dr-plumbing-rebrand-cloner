@@ -19,7 +19,7 @@ const Oldsmar = () => {
         title="Oldsmar Plumber | Dr. Plumbing 24/7"
         description="Oldsmar plumbing services available 24/7 for emergencies. Expert repairs, drain cleaning & water heaters. Licensed & insured. Call (727) 755-7000!"
         keywords="Oldsmar plumber, plumbing services Oldsmar FL, emergency plumber Oldsmar, drain cleaning Oldsmar"
-        canonicalUrl="https://drplumbing.com/locations/oldsmar"
+        canonicalUrl="https://dr.plumbing/locations/oldsmar"
       />
       <Navbar />
       

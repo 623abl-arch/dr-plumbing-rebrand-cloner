@@ -19,7 +19,7 @@ const Gulfport = () => {
         title="Gulfport Plumber | Dr. Plumbing 24/7"
         description="Professional Gulfport plumber with 24/7 emergency service. Drain cleaning, water heaters, repairs & more. Licensed & insured. Call (727) 755-7000!"
         keywords="Gulfport plumber, plumbing services Gulfport FL, emergency plumber Gulfport, drain cleaning Gulfport"
-        canonicalUrl="https://drplumbing.com/locations/gulfport"
+        canonicalUrl="https://dr.plumbing/locations/gulfport"
       />
       <Navbar />
       
