@@ -6,7 +6,8 @@ interface SEOProps {
   keywords?: string;
   canonicalUrl?: string;
   ogImage?: string;
-  structuredData?: object;
+  structuredData?: object | object[];
+  noindex?: boolean;
 }
 
 export const SEO = ({
@@ -15,14 +16,20 @@ export const SEO = ({
   keywords = "plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing",
   canonicalUrl = "https://dr.plumbing/",
   ogImage = "https://dr.plumbing/og-image.jpg",
-  structuredData
+  structuredData,
+  noindex = false
 }: SEOProps) => {
+  const structuredDataArray = structuredData 
+    ? (Array.isArray(structuredData) ? structuredData : [structuredData])
+    : [];
+
   return (
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={description} />
       <meta name="keywords" content={keywords} />
       <link rel="canonical" href={canonicalUrl} />
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       
       {/* Open Graph */}
       <meta property="og:title" content={title} />
@@ -30,6 +37,8 @@ export const SEO = ({
       <meta property="og:type" content="website" />
       <meta property="og:url" content={canonicalUrl} />
       <meta property="og:image" content={ogImage} />
+      <meta property="og:site_name" content="Dr. Plumbing" />
+      <meta property="og:locale" content="en_US" />
       
       {/* Twitter */}
       <meta name="twitter:card" content="summary_large_image" />
@@ -38,11 +47,11 @@ export const SEO = ({
       <meta name="twitter:image" content={ogImage} />
       
       {/* Structured Data */}
-      {structuredData && (
-        <script type="application/ld+json">
-          {JSON.stringify(structuredData)}
+      {structuredDataArray.map((data, index) => (
+        <script key={index} type="application/ld+json">
+          {JSON.stringify(data)}
         </script>
-      )}
+      ))}
     </Helmet>
   );
 };
