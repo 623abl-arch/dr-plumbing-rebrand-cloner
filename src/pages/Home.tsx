@@ -7,7 +7,7 @@ import Footer from "@/components/Footer";
 import ServiceCard from "@/components/ServiceCard";
 import { SEO } from "@/components/SEO";
 import { OptimizedImage } from "@/components/OptimizedImage";
-import { localBusinessStructuredData } from "@/data/structuredData";
+import { localBusinessStructuredData, faqStructuredData } from "@/data/structuredData";
 import heroImage from "@/assets/hero-plumbing.jpg";
 import emergencyImage from "@/assets/emergency-service.jpg";
 import drainImage from "@/assets/drain-service.jpg";
@@ -77,7 +77,13 @@ const Home = () => {
       <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" />
     </svg>;
   return <div className="min-h-screen flex flex-col">
-      <SEO title="Dr. Plumbing | Expert 24/7 Plumbing Services" description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!" keywords="plumbing services, emergency plumber, drain cleaning, water heater repair, water damage restoration, licensed plumber, 24/7 plumbing" canonicalUrl="https://dr.plumbing/" structuredData={localBusinessStructuredData} />
+      <SEO 
+        title="Dr. Plumbing | Expert 24/7 Plumbing Services in Clearwater & Tampa Bay" 
+        description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!" 
+        keywords="plumbing services Clearwater, emergency plumber Tampa Bay, drain cleaning, water heater repair, licensed plumber FL, 24/7 plumbing" 
+        canonicalUrl="https://dr.plumbing/" 
+        structuredData={[localBusinessStructuredData, faqStructuredData]} 
+      />
       <Navbar />
       
       {/* Hero Section */}
