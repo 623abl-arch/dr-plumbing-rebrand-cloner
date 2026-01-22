@@ -1,19 +1,13 @@
 import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin } from "lucide-react";
 import logoDark from "@/assets/logo-dark.png";
-
 const Footer = () => {
-  return (
-    <footer className="border-t bg-muted/50">
+  return <footer className="border-t bg-muted/50">
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8">
           <div className="space-y-4">
             <Link to="/" className="inline-block">
-              <img 
-                src={logoDark} 
-                alt="Dr. Plumbing" 
-                className="h-12 w-auto"
-              />
+              <img src={logoDark} alt="Dr. Plumbing" className="h-12 w-auto" />
             </Link>
             <p className="text-sm text-muted-foreground">
               Professional plumbing services you can trust. Licensed, insured, and veteran-owned.
@@ -73,7 +67,8 @@ const Footer = () => {
               </li>
               <li className="flex items-start space-x-2">
                 <MapPin className="h-4 w-4 text-primary mt-0.5" />
-                <address className="not-italic">140 Island Way 196<br />Clearwater, FL 33767</address>
+                <address className="not-italic">1505 Maple St.
+Clearwater, FL 33755<br />Clearwater, FL 33767</address>
               </li>
             </ul>
             <div className="mt-4">
@@ -88,8 +83,6 @@ const Footer = () => {
           <p>&copy; {new Date().getFullYear()} Dr. Plumbing. All rights reserved. Licensed & Insured.</p>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
