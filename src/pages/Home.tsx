@@ -77,13 +77,13 @@ const Home = () => {
       <path fill="#1976D2" d="M43.611 20.083H42V20H24v8h11.303a12.04 12.04 0 0 1-4.087 5.571l.003-.002l6.19 5.238C36.971 39.205 44 34 44 24c0-1.341-.138-2.65-.389-3.917z" />
     </svg>;
   return <div className="min-h-screen flex flex-col">
-      <SEO 
-        title="Dr. Plumbing | Expert 24/7 Plumbing Services in Clearwater & Tampa Bay" 
-        description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!" 
-        keywords="plumbing services Clearwater, emergency plumber Tampa Bay, drain cleaning, water heater repair, licensed plumber FL, 24/7 plumbing" 
-        canonicalUrl="https://dr.plumbing/" 
-        structuredData={[localBusinessStructuredData, faqStructuredData]} 
-      />
+      <SEO
+      title="Dr. Plumbing | Expert 24/7 Plumbing Services in Clearwater & Tampa Bay"
+      description="Expert Tampa Bay plumbing services available 24/7. Emergency repairs, drain cleaning, water heaters & more. Licensed & insured. Call (727) 755-7000 now!"
+      keywords="plumbing services Clearwater, emergency plumber Tampa Bay, drain cleaning, water heater repair, licensed plumber FL, 24/7 plumbing"
+      canonicalUrl="https://dr.plumbing/"
+      structuredData={[localBusinessStructuredData, faqStructuredData]} />
+
       <Navbar />
       
       {/* Hero Section */}
@@ -96,9 +96,9 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Clearwater's Most Trusted Plumber- Emergency 24/7 Service        
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">
-              Professional care for all your plumbing needs. Available 24/7 for emergencies.
-            </p>
+            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">Professional care for all your plumbing needs. Available 24/7 for emergencies. Veteran/Family Businesses
+
+          </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button variant="emergency" size="lg" asChild>
                 <a href="tel:727-755-7000" className="font-bold text-xl">
