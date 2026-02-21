@@ -96,7 +96,7 @@ const Home = () => {
             <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
               Clearwater's Most Trusted Plumber- Emergency 24/7 Service        
             </h1>
-            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">Professional care for all your plumbing needs. Available 24/7 for emergencies. Veteran/Family Businesses
+            <p className="text-xl md:text-2xl mb-8 text-primary-foreground/90">Professional care for all your plumbing needs. Available 24/7 for emergencies. Veteran/Family Businesses.
 
           </p>
             <div className="flex flex-col sm:flex-row gap-4">
