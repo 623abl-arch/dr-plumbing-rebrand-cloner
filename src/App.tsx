@@ -42,6 +42,8 @@ const Seminole = lazy(() => import("./pages/locations/Seminole"));
 const TarponSprings = lazy(() => import("./pages/locations/TarponSprings"));
 const Westchase = lazy(() => import("./pages/locations/Westchase"));
 const Tampa = lazy(() => import("./pages/locations/Tampa"));
+const PrivacyPolicy = lazy(() => import("./pages/PrivacyPolicy"));
+const TermsAndConditions = lazy(() => import("./pages/TermsAndConditions"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
 // Loading fallback component
