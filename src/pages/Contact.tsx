@@ -1,6 +1,8 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { Phone, Mail, MapPin, Clock, MessageSquare } from "lucide-react";
+import { Checkbox } from "@/components/ui/checkbox";
+import { Link } from "react-router-dom";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { SEO } from "@/components/SEO";
@@ -43,6 +45,30 @@ const Contact = () => {
               <CardContent className="p-6">
                 <h2 className="text-2xl font-bold mb-6">Schedule Service</h2>
                 <div id="a0b6124c-0b73-4561-a68a-90eb220c3719-331256"></div>
+
+                <div className="mt-6 space-y-4 border-t pt-6">
+                  <h3 className="text-sm font-semibold">SMS/Text Message Consent</h3>
+                  
+                  <div className="flex items-start space-x-3">
+                    <Checkbox id="sms-transactional" />
+                    <label htmlFor="sms-transactional" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
+                      By providing your phone number, you agree to receive Visit Reminders and other transactional
+                      text messages (SMS) from <strong>Dr. Plumbing, inc. d.b.a. Signature Construction Group</strong>.
+                      Message frequency varies. Message and data rates may apply. Reply <strong>STOP</strong> to
+                      cancel at any time. Reply <strong>HELP</strong> for assistance. View our{" "}
+                      <Link to="/privacy-policy" className="text-primary underline">Privacy Policy</Link> and{" "}
+                      <Link to="/terms-and-conditions" className="text-primary underline">Terms & Conditions</Link>.
+                    </label>
+                  </div>
+
+                  <div className="flex items-start space-x-3">
+                    <Checkbox id="sms-marketing" />
+                    <label htmlFor="sms-marketing" className="text-xs text-muted-foreground leading-relaxed cursor-pointer">
+                      I also agree to receive occasional promotional offers and marketing messages from Dr. Plumbing
+                      via SMS. This consent is not required to purchase services. Reply <strong>STOP</strong> to opt out.
+                    </label>
+                  </div>
+                </div>
               </CardContent>
             </Card>
 

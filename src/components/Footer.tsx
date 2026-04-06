@@ -79,6 +79,11 @@ const Footer = () => {
         </div>
 
         <div className="mt-8 pt-8 border-t text-center text-sm text-muted-foreground">
+          <div className="flex flex-wrap justify-center gap-4 mb-4">
+            <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <span>•</span>
+            <Link to="/terms-and-conditions" className="hover:text-primary transition-colors">Terms & Conditions</Link>
+          </div>
           <p>&copy; {new Date().getFullYear()} Dr. Plumbing. All rights reserved. Licensed & Insured.</p>
         </div>
       </div>
