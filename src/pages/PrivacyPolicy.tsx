@@ -68,8 +68,8 @@ const PrivacyPolicy = () => {
               <li><strong>Carriers Supported:</strong> T-Mobile, Verizon, AT&T, and all major US carriers are supported. Carriers are not liable for delayed or undelivered messages.</li>
             </ul>
             <p>
-              <strong>We do not sell, rent, or share your phone number or SMS opt-in consent with any third parties
-              or affiliates for marketing purposes.</strong>
+              <strong>We do not sell, rent, or share your phone number or SMS opt-in consent/data with any third parties
+              or affiliates for marketing purposes. No mobile information will be shared with third parties or affiliates for marketing or promotional purposes.</strong>
             </p>
 
             <h2>Information Sharing</h2>
