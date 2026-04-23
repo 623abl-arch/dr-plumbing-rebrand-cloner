@@ -109,8 +109,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        1505 Maple St.<br />
-                        Clearwater, FL 33755
+                        1505 Maple St<br />
+                        Clearwater FL 33755
                       </p>
                     </div>
                   </div>
