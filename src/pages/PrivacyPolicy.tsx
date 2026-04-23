@@ -118,7 +118,7 @@ const PrivacyPolicy = () => {
             <ul>
               <li><strong>Phone:</strong> (727) 755-7000</li>
               <li><strong>Email:</strong> help@dr.plumbing</li>
-              <li><strong>Address:</strong> 140 Island Way 196, Clearwater, FL 33767</li>
+              <li><strong>Address:</strong> 1505 Maple St Clearwater FL 33755</li>
             </ul>
           </div>
         </div>
