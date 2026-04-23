@@ -17,7 +17,7 @@ const TermsAndConditions = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Terms and Conditions</h1>
-            <p className="text-lg opacity-90">Last Updated: April 5, 2026</p>
+            <p className="text-lg opacity-90">Last Updated: April 23, 2026</p>
           </div>
         </div>
       </section>
@@ -73,10 +73,28 @@ const TermsAndConditions = () => {
               <li>Other transactional messages related to your plumbing services</li>
             </ul>
 
+            <h3>Marketing Messages (Optional)</h3>
+            <p>
+              If you separately opt in to marketing SMS by checking the marketing consent box on our website, you
+              may also receive promotional offers and marketing messages from Dr. Plumbing, inc. d.b.a. Signature
+              Construction Group. Marketing SMS consent is optional and is not a condition of receiving our
+              plumbing services or transactional messages. You can opt out of marketing messages at any time by
+              replying <strong>STOP MKT</strong>, while continuing to receive transactional messages.
+            </p>
+
             <h3>Message Frequency</h3>
             <p>
               Message frequency varies based on your service activity. You can expect approximately 1–5 messages
               per month, though this may vary.
+            </p>
+
+            <h3>Consent</h3>
+            <p>
+              By providing your phone number and submitting our contact form or signing up for services, you
+              expressly consent to receive transactional SMS messages from Dr. Plumbing, inc. d.b.a. Signature
+              Construction Group at the mobile number provided. Consent to receive SMS messages is not a condition
+              of purchase or service. You may withdraw consent at any time by following the opt-out instructions
+              below.
             </p>
 
             <h3>Opt-Out</h3>
@@ -90,7 +108,9 @@ const TermsAndConditions = () => {
             <h3>Help</h3>
             <p>
               If you are experiencing issues with our messaging program, reply <strong>"HELP"</strong> to any
-              message for assistance, or contact us directly at (727) 755-7000 or help@dr.plumbing.
+              message for assistance, or contact us directly at{" "}
+              <a href="tel:727-755-7000" className="text-primary hover:underline">(727) 755-7000</a> or{" "}
+              <a href="mailto:help@dr.plumbing" className="text-primary hover:underline">help@dr.plumbing</a>.
             </p>
 
             <h3>Message and Data Rates</h3>
@@ -108,7 +128,10 @@ const TermsAndConditions = () => {
             <h3>Privacy</h3>
             <p>
               <strong>We do not sell, rent, or share your phone number or SMS opt-in consent/data with any third
-              parties or affiliates for marketing purposes.</strong> For full details, please see our{" "}
+              parties or affiliates for marketing purposes. No mobile information will be shared with third
+              parties or affiliates for marketing or promotional purposes. Mobile phone numbers and SMS opt-in
+              consent data are excluded from all information sharing with service providers, affiliates, or third
+              parties for any purpose.</strong> For full details, please see our{" "}
               <a href="/privacy-policy" className="text-primary hover:underline">Privacy Policy</a>.
             </p>
 
@@ -141,9 +164,9 @@ const TermsAndConditions = () => {
             <h2>Contact Us</h2>
             <p>If you have questions about these Terms and Conditions, please contact us:</p>
             <ul>
-              <li><strong>Phone:</strong> (727) 755-7000</li>
-              <li><strong>Email:</strong> help@dr.plumbing</li>
-              <li><strong>Address:</strong> 140 Island Way 196, Clearwater, FL 33767</li>
+              <li><strong>Phone:</strong> <a href="tel:727-755-7000" className="text-primary hover:underline">(727) 755-7000</a></li>
+              <li><strong>Email:</strong> <a href="mailto:help@dr.plumbing" className="text-primary hover:underline">help@dr.plumbing</a></li>
+              <li><strong>Address:</strong> 1505 Maple St, Clearwater, FL 33755</li>
             </ul>
           </div>
         </div>
