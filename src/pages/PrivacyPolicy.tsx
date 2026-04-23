@@ -17,7 +17,7 @@ const PrivacyPolicy = () => {
         <div className="container mx-auto px-4">
           <div className="max-w-3xl mx-auto text-center">
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Privacy Policy</h1>
-            <p className="text-lg opacity-90">Last Updated: April 5, 2026</p>
+            <p className="text-lg opacity-90">Last Updated: April 23, 2026</p>
           </div>
         </div>
       </section>
@@ -79,6 +79,9 @@ const PrivacyPolicy = () => {
               <li><strong>Legal Requirements:</strong> When required by law, regulation, or legal process.</li>
               <li><strong>Business Transfers:</strong> In connection with a merger, acquisition, or sale of assets.</li>
             </ul>
+            <p className="mt-4">
+              <strong>SMS Consent Data Exclusion:</strong> Mobile phone numbers and SMS opt-in consent data collected for text messaging purposes are excluded from all information sharing described above. This data is never shared with service providers, affiliates, or third parties for any purpose, including marketing, promotional, or operational purposes.
+            </p>
 
             <h2>Data Security</h2>
             <p>
@@ -103,8 +106,8 @@ const PrivacyPolicy = () => {
 
             <h2>Children's Privacy</h2>
             <p>
-              Our services are not directed to individuals under 18. We do not knowingly collect personal
-              information from children.
+              Our services are not directed to children under 13. We do not knowingly collect personal
+              information from children under 13.
             </p>
 
             <h2>Changes to This Policy</h2>
