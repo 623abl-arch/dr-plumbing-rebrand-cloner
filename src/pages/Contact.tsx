@@ -109,8 +109,8 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        140 Island Way 196<br />
-                        Clearwater, FL 33767
+                        1505 Maple St.<br />
+                        Clearwater, FL 33755
                       </p>
                     </div>
                   </div>
