@@ -145,6 +145,14 @@ const Contact1 = () => {
     e.preventDefault();
     if (!canSubmit) return;
 
+    // Cross-validation: Text preferred contact requires transactional SMS consent
+    if (form.contact_method === "Text" && !transactionalConsent) {
+      setErrorMsg(
+        "You selected 'Text' as your preferred contact method. Please check the transactional SMS consent box so we can text you.",
+      );
+      return;
+    }
+
     setErrorMsg(null);
     setIsSubmitting(true);
     setCooldown(true);
@@ -152,13 +160,18 @@ const Contact1 = () => {
     setTimeout(() => setCooldown(false), SUBMIT_COOLDOWN_MS);
 
     try {
+      const { company_url, ...formFields } = form;
       const { data, error } = await supabase.functions.invoke("contact-lead", {
         body: {
-          ...form,
+          ...formFields,
+          company_url, // honeypot
           transactional_consent: true,
           marketing_consent: marketingConsent,
           consent_disclosure: CONSENT_DISCLOSURE,
-          submission_url: "dr.plumbing/contact1",
+          submission_url:
+            typeof window !== "undefined"
+              ? window.location.href
+              : "unknown",
         },
       });
 
