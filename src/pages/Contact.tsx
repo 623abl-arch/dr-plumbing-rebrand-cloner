@@ -110,7 +110,6 @@ const Contact = () => {
       form.address.trim() &&
       form.city.trim() &&
       zipValid &&
-      form.service_needed &&
       form.description.trim() &&
       form.contact_method
     );
@@ -362,7 +361,7 @@ const Contact = () => {
 
                     <div className="space-y-1.5">
                       <Label htmlFor="service_needed">
-                        Service Needed<Required />
+                        Service Needed
                       </Label>
                       <Select
                         value={form.service_needed}
