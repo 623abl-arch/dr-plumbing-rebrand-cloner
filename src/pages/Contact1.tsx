@@ -86,7 +86,7 @@ const Contact1 = () => {
     description: "",
     contact_method: "",
     best_time: "",
-    website: "", // honeypot
+    company_url: "", // honeypot (renamed from `website` to evade bot heuristics)
   });
   const [transactionalConsent, setTransactionalConsent] = useState(false);
   const [marketingConsent, setMarketingConsent] = useState(false);
