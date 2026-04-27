@@ -46,8 +46,8 @@ const SubmissionSchema = z.object({
   marketing_consent: z.boolean(),
   consent_disclosure: z.string().trim().min(1).max(2000),
   submission_url: z.string().trim().min(1).max(500),
-  // Honeypot — must be empty for real users; we accept any string and check manually
-  website: z.string().max(500).optional().default(""),
+  // Honeypot — must be empty for real users; renamed from `website` to evade bot heuristics
+  company_url: z.string().max(500).optional().default(""),
 });
 
 function jsonResponse(body: unknown, status: number) {
