@@ -103,7 +103,7 @@ Deno.serve(async (req) => {
   const data = parsed.data;
 
   // Honeypot — silently accept and drop
-  if (data.website && data.website.length > 0) {
+  if (data.company_url && data.company_url.length > 0) {
     return jsonResponse({ ok: true }, 200);
   }
 
