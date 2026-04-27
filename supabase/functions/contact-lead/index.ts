@@ -125,6 +125,7 @@ Deno.serve(async (req) => {
   const ipAddress = ipHeader.split(",")[0]?.trim() || "unknown";
   const userAgent = req.headers.get("user-agent") ?? "unknown";
   const acceptLanguage = req.headers.get("accept-language") ?? "unknown";
+  const refererHeader = req.headers.get("referer") ?? "unknown";
   const timestamp = new Date().toISOString();
 
   // Webhook
