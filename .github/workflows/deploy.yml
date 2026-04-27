@@ -1,10 +1,8 @@
 name: Deploy to VPS
-
 on:
   push:
     branches: [main]
   workflow_dispatch:
-
 jobs:
   deploy:
     runs-on: ubuntu-latest
@@ -21,7 +19,7 @@ jobs:
             cd /home/drplumbing/dr-plumbing-rebrand-cloner
             git fetch origin
             git reset --hard origin/main
-            npm ci
+            npm install --no-audit --no-fund
             npm run build
             echo "Deploy complete. Latest commit:"
             git log --oneline -1
