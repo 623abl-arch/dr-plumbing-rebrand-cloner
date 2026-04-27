@@ -171,7 +171,8 @@ Deno.serve(async (req) => {
       { name: "IP Address", value: ipAddress, inline: true },
       { name: "Accept-Language", value: acceptLanguage, inline: true },
       { name: "User Agent", value: userAgent.slice(0, 1024) },
-      { name: "Submission URL", value: data.submission_url },
+      { name: "Submission URL (client)", value: data.submission_url },
+      { name: "Referer (server)", value: refererHeader.slice(0, 1024) },
       {
         name: "Consent Disclosure Shown",
         value: data.consent_disclosure.slice(0, 1024),
