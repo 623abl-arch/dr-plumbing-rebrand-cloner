@@ -150,7 +150,7 @@ Deno.serve(async (req) => {
         name: "Service Address",
         value: `${data.address}, ${data.city} ${data.zip}`,
       },
-      { name: "Service Needed", value: data.service_needed, inline: true },
+      { name: "Service Needed", value: data.service_needed?.trim() ? data.service_needed : "Not specified", inline: true },
       { name: "Preferred Contact", value: data.contact_method, inline: true },
       {
         name: "Best Time",
