@@ -243,15 +243,15 @@ const Contact1 = () => {
                   </div>
                 ) : (
                   <form onSubmit={handleSubmit} className="space-y-4" noValidate>
-                    {/* Honeypot — hidden from real users */}
+                    {/* Honeypot — hidden from real users (named to evade bot heuristics) */}
                     <input
                       type="text"
-                      name="website"
+                      name="company_url"
                       tabIndex={-1}
                       autoComplete="off"
                       aria-hidden="true"
-                      value={form.website}
-                      onChange={(e) => update("website", e.target.value)}
+                      value={form.company_url}
+                      onChange={(e) => update("company_url", e.target.value)}
                       style={{
                         position: "absolute",
                         left: "-10000px",
