@@ -73,7 +73,7 @@ const formatPhone = (raw: string) => {
 
 const Required = () => <span className="text-destructive ml-0.5">*</span>;
 
-const Contact1 = () => {
+const Contact = () => {
   const [form, setForm] = useState({
     first_name: "",
     last_name: "",
