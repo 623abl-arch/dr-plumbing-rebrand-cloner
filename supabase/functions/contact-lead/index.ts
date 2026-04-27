@@ -38,7 +38,7 @@ const SubmissionSchema = z.object({
     .string()
     .trim()
     .regex(/^\d{5}$/, "ZIP must be 5 digits"),
-  service_needed: z.string().trim().min(1).max(100),
+  service_needed: z.string().trim().max(100).optional().default(""),
   description: z.string().trim().min(1).max(2000),
   contact_method: z.enum(["Phone Call", "Text", "Email"]),
   best_time: z.string().trim().max(60).optional().default(""),
