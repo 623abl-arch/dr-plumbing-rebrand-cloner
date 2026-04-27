@@ -11,6 +11,7 @@ const Index = lazy(() => import("./pages/Index"));
 const About = lazy(() => import("./pages/About"));
 const Services = lazy(() => import("./pages/Services"));
 const Contact = lazy(() => import("./pages/Contact"));
+const Contact1 = lazy(() => import("./pages/Contact1"));
 const Emergency = lazy(() => import("./pages/services/Emergency"));
 const Drain = lazy(() => import("./pages/services/Drain"));
 const WaterHeater = lazy(() => import("./pages/services/WaterHeater"));
@@ -68,6 +69,7 @@ const App = () => (
               <Route path="/about" element={<About />} />
               <Route path="/services" element={<Services />} />
               <Route path="/contact" element={<Contact />} />
+              <Route path="/contact1" element={<Contact1 />} />
               <Route path="/services/emergency" element={<Emergency />} />
               <Route path="/services/drain" element={<Drain />} />
               <Route path="/services/water-heater" element={<WaterHeater />} />
